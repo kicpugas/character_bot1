@@ -1,0 +1,63 @@
+{
+    "8092842581": {
+        "user_id": 8092842581,
+        "name": "Кей",
+        "age": 10,
+        "race": "elf",
+        "character_class": "mage",
+        "photo_id": "AgACAgIAAxkBAAIK_2hqhgnTV7oIy1UqaBYS5oTw-uOfAAKo-DEbT1tZS5F-b6Ytrm3SAQADAgADeAADNgQ",
+        "level": 2,
+        "exp": 128,
+        "exp_to_next": 382,
+        "stat_points": 0,
+        "gold": 117,
+        "stats": {
+            "hp": 100,
+            "attack": 25,
+            "defense": -2,
+            "magic": 30,
+            "agility": 20,
+            "mana": 20,
+            "luck": 7
+        },
+        "inventory": [],
+        "equipment": {
+            "weapon": "iron_sword",
+            "amulet": "orb_of_luck"
+        },
+        "active_effects": []
+    },
+    "2139448887": {
+        "user_id": 2139448887,
+        "name": "Сорен Сонар",
+        "age": 33,
+        "race": "human",
+        "character_class": "warrior",
+        "photo_id": "AgACAgIAAxkBAAIK2WhqX0FVrEbfQRaEms_Jckqqu9j0AAJ_8DEbucowS-3VJAxWQHuEAQADAgADeQADNgQ",
+        "level": 3,
+        "exp": 77,
+        "exp_to_next": 619,
+        "stat_points": 5,
+        "gold": 537,
+        "stats": {
+            "hp": 209,
+            "attack": 146,
+            "defense": 70,
+            "magic": 3,
+            "agility": 13,
+            "mana": 13
+        },
+        "inventory": [
+            "small_healing_potion",
+            "small_healing_potion",
+            "small_healing_potion",
+            "small_healing_potion",
+            "small_healing_potion"
+        ],
+        "equipment": {
+            "feet": "steel_boots",
+            "chest": "leather_armor"
+        },
+        "active_effects": []
+    }
+}

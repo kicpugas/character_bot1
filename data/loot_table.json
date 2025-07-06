@@ -1,0 +1,37 @@
+{
+  "weak": {
+    "gold_range": [5, 15],
+    "xp_range": [8, 12],
+    "loot": [
+      {"item_id": "small_healing_potion", "chance": 30, "rarity": "common"},
+      {"item_id": "steel_boots", "chance": 10, "rarity": "common"}
+    ]
+  },
+  "normal": {
+    "gold_range": [10, 25],
+    "xp_range": [15, 25],
+    "loot": [
+      {"item_id": "small_healing_potion", "chance": 25, "rarity": "uncommon"},
+      {"item_id": "iron_sword", "chance": 15, "rarity": "uncommon"},
+      {"item_id": "leather_armor", "chance": 10, "rarity": "rare"}
+    ]
+  },
+  "elite": {
+    "gold_range": [40, 70],
+    "xp_range": [40, 60],
+    "loot": [
+      {"item_id": "small_healing_potion", "chance": 20, "rarity": "rare"},
+      {"item_id": "steel_helmet", "chance": 10, "rarity": "rare"},
+      {"item_id": "amulet_of_life", "chance": 5, "rarity": "epic"}
+    ]
+  },
+  "boss": {
+    "gold_range": [100, 200],
+    "xp_range": [100, 150],
+    "loot": [
+      {"item_id": "orb_of_luck", "chance": 25, "rarity": "epic"},
+      {"item_id": "hunters_boots", "chance": 10, "rarity": "legendary"},
+      {"item_id": "gloves_of_agility", "chance": 50, "rarity": "uncommon"}
+    ]
+  }
+}

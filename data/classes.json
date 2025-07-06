@@ -1,0 +1,120 @@
+{
+  "mage": {
+    "name": "Маг",
+    "description": "Повелитель стихий, специализирующийся на разрушительных заклинаниях.",
+    "modifiers": {
+      "magic": 18,
+      "mana": 15,
+      "defense": -8,
+      "hp": -10,
+      "attack": -5
+    }
+  },
+  "warrior": {
+    "name": "Воин",
+    "description": "Боец ближнего боя с высоким HP и защитой.",
+    "modifiers": {
+      "hp": 18,
+      "attack": 12,
+      "defense": 8,
+      "magic": -12,
+      "agility": -3
+    }
+  },
+  "rogue": {
+    "name": "Разбойник",
+    "description": "Мастер скрытности, критических ударов и быстрых атак.",
+    "modifiers": {
+      "agility": 18,
+      "attack": 8,
+      "luck": 5,
+      "hp": -8,
+      "defense": -10
+    }
+  },
+  "cleric": {
+    "name": "Жрец",
+    "description": "Целитель и защитник, использующий божественную магию.",
+    "modifiers": {
+      "hp": 12,
+      "magic": 12,
+      "defense": 8,
+      "mana": 8,
+      "attack": -5,
+      "agility": -3
+    }
+  },
+  "hunter": {
+    "name": "Охотник",
+    "description": "Мастер дальнего боя, следопыт и укротитель зверей.",
+    "modifiers": {
+      "attack": 12,
+      "agility": 12,
+      "luck": 3,
+      "hp": -3,
+      "defense": -5,
+      "magic": -3
+    }
+  },
+  "paladin": {
+    "name": "Паладин",
+    "description": "Святой воин, защитник слабых и каратель зла.",
+    "modifiers": {
+      "hp": 15,
+      "defense": 15,
+      "magic": 8,
+      "attack": 5,
+      "agility": -8,
+      "mana": 3
+    }
+  },
+  "barbarian": {
+    "name": "Варвар",
+    "description": "Свирепый берсерк, полагающийся на грубую силу и ярость.",
+    "modifiers": {
+      "hp": 20,
+      "attack": 15,
+      "defense": 3,
+      "magic": -15,
+      "agility": -3,
+      "mana": -8
+    }
+  },
+  "assassin": {
+    "name": "Ассасин",
+    "description": "Мастер смертельных ударов, ядов и скрытности.",
+    "modifiers": {
+      "attack": 15,
+      "agility": 15,
+      "luck": 8,
+      "hp": -10,
+      "defense": -12,
+      "magic": -3
+    }
+  },
+  "monk": {
+    "name": "Монах",
+    "description": "Воин духа, сочетающий боевые искусства с внутренней энергией.",
+    "modifiers": {
+      "agility": 12,
+      "defense": 8,
+      "mana": 8,
+      "attack": 5,
+      "hp": 3,
+      "magic": -3
+    }
+  },
+  "necromancer": {
+    "name": "Некромант",
+    "description": "Мастер тёмных искусств, повелитель мёртвых и проклятий.",
+    "modifiers": {
+      "magic": 15,
+      "mana": 12,
+      "hp": 8,
+      "defense": -3,
+      "attack": -8,
+      "agility": -5,
+      "luck": -5
+    }
+  }
+}

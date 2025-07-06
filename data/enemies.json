@@ -1,0 +1,45 @@
+{
+  "slime": {
+    "name": "Слизь",
+    "hp": 40,
+    "attack": 8,
+    "defense": 2,
+    "exp": 10,
+    "gold": 15,
+    "description": "Маленькое и вонючее желе. Не недооценивай его.",
+    "type": "weak",
+    "abilities": {
+      "heal": {
+        "chance": 0.7,
+        "heal_amount": 15,
+        "hp_threshold": 0.5
+      }
+    }
+  },
+  "goblin": {
+    "name": "Гоблин",
+    "hp": 60,
+    "attack": 12,
+    "defense": 5,
+    "exp": 20,
+    "gold": 25,
+    "description": "Зеленокожий вредитель с острым ножом.",
+    "type": "normal"
+  },
+  "orc": {
+    "name": "Орк",
+    "hp": 100,
+    "attack": 15,
+    "defense": 8,
+    "exp": 40,
+    "gold": 50,
+    "description": "Громадный воин с дубиной, не отличающийся умом.",
+    "type": "elite",
+    "abilities": {
+      "curse": {
+        "chance": 0.3,
+        "hp_threshold": 0.7
+      }
+    }
+  }
+}

@@ -1,0 +1,105 @@
+{
+  "elf": {
+    "name": "Эльф",
+    "description": "Ловкие и умные существа, мастера магии и стрельбы из лука.",
+    "modifiers": {
+      "magic": 8,
+      "agility": 8,
+      "mana": 5,
+      "defense": -3,
+      "hp": -5
+    }
+  },
+  "orc": {
+    "name": "Орк",
+    "description": "Мощные бойцы ближнего боя с природной агрессией.",
+    "modifiers": {
+      "attack": 12,
+      "hp": 8,
+      "defense": 3,
+      "magic": -8,
+      "agility": -3
+    }
+  },
+  "dwarf": {
+    "name": "Дворф",
+    "description": "Крепкие и выносливые, мастера кузнечного дела и защиты.",
+    "modifiers": {
+      "hp": 10,
+      "defense": 12,
+      "attack": 5,
+      "agility": -8,
+      "magic": -2
+    }
+  },
+  "human": {
+    "name": "Человек",
+    "description": "Универсальные и приспособляемые, сбалансированные во всех аспектах.",
+    "modifiers": {
+      "hp": 5,
+      "attack": 5,
+      "defense": 5,
+      "magic": 5,
+      "agility": 5,
+      "mana": 5,
+      "luck": 5
+    }
+  },
+  "goblin": {
+    "name": "Гоблин",
+    "description": "Маленькие и хитрые существа, мастера скрытности и воровства.",
+    "modifiers": {
+      "agility": 15,
+      "luck": 8,
+      "attack": 3,
+      "hp": -12,
+      "defense": -5
+    }
+  },
+  "undead": {
+    "name": "Нежить",
+    "description": "Восставшие из мертвых, нечувствительные к боли и страху.",
+    "modifiers": {
+      "hp": 12,
+      "defense": 8,
+      "magic": 5,
+      "mana": -8,
+      "agility": -5,
+      "luck": -10
+    }
+  },
+  "halfling": {
+    "name": "Полурослик",
+    "description": "Маленький народец, известный своей удачливостью и жизнерадостностью.",
+    "modifiers": {
+      "luck": 15,
+      "agility": 8,
+      "hp": 3,
+      "attack": -3,
+      "defense": -5
+    }
+  },
+  "tiefling": {
+    "name": "Тифлинг",
+    "description": "Потомки демонов, владеющие темной магией и огненными способностями.",
+    "modifiers": {
+      "magic": 10,
+      "mana": 8,
+      "luck": 5,
+      "hp": -3,
+      "defense": -5
+    }
+  },
+  "dragonborn": {
+    "name": "Драконорождённый",
+    "description": "Потомки драконов, сочетающие физическую мощь с магическими способностями.",
+    "modifiers": {
+      "hp": 8,
+      "attack": 8,
+      "magic": 8,
+      "defense": 5,
+      "agility": -8,
+      "mana": 3
+    }
+  }
+}

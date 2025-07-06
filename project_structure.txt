@@ -1,0 +1,60 @@
+Project Location: C:/Users/Шынгыс/character_bot/
+
+Project Structure:
+C:/Users/Шынгыс/character_bot/
+├───bot.log
+├───bot.py
+├───config.py
+├───error.log
+├───README.md
+├───requirements.txt
+├───тз.txt
+├───__pycache__/
+├───-p/
+├───.ruff_cache/
+├───data/
+│   ├───bosses.json
+│   ├───characters.json
+│   ├───classes.json
+│   ├───enemies.json
+│   ├───items.json
+│   ├───loot_table.json
+│   └───races.json
+├───handlers/
+│   ├───__init__.py
+│   ├───admin.py
+│   ├───callbacks.py
+│   ├───character.py
+│   ├───combat.py
+│   ├───inventory.py
+│   ├───leveling.py
+│   ├───main_menu.py
+│   ├───profile.py
+│   ├───shop.py
+│   └───__pycache__/
+├───keyboards/
+│   ├───__init__.py
+│   ├───character_kb.py
+│   ├───combat_kb.py
+│   ├───inventory_kb.py
+│   ├───main_kb.py
+│   ├───profile_kb.py
+│   ├───shop_kb.py
+│   └───__pycache__/
+├───models/
+│   ├───__init__.py
+│   ├───character.py
+│   └───__pycache__/
+└───utils/
+    ├───__init__.py
+    ├───combat_logic.py
+    ├───database.py
+    ├───effect_processor.py
+    ├───enemy_ai.py
+    ├───level_system.py
+    ├───leveling.py
+    ├───loot.py
+    ├───shop_utils.py
+    ├───stat_calculator.py
+    ├───stat_names.py
+    └───__pycache__/

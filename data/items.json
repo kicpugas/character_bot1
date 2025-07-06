@@ -1,0 +1,92 @@
+{
+  "small_healing_potion": {
+    "name": "Малое зелье лечения",
+    "type": "consumable",
+    "effect": "heal",
+    "heal_amount": 50,
+    "description": "Восстанавливает небольшое количество здоровья.",
+    "rarity": "common"
+  },
+  "steel_helmet": {
+    "name": "Стальной шлем",
+    "type": "armor",
+    "slot": "head",
+    "stats": {
+      "defense": 2,
+      "attack": 5
+    },
+    "description": "Прочный шлем, повышающий защиту и силу удара.",
+    "rarity": "rare"
+  },
+  "leather_armor": {
+    "name": "Кожаный доспех",
+    "type": "armor",
+    "slot": "chest",
+    "stats": {
+      "hp": 7,
+      "attack": 10
+    },
+    "description": "Простой, но крепкий доспех.",
+    "rarity": "uncommon"
+  },
+  "steel_boots": {
+    "name": "Стальные сапоги",
+    "type": "armor",
+    "slot": "feet",
+    "stats": {
+      "defense": 3
+    },
+    "description": "Тяжелые сапоги, обеспечивающие хорошую защиту.",
+    "rarity": "common"
+  },
+  "gloves_of_agility": {
+    "name": "Перчатки ловкости",
+    "type": "armor",
+    "slot": "hands",
+    "stats": {
+      "agility": 2
+    },
+    "description": "Легкие перчатки, улучшающие ловкость.",
+    "rarity": "uncommon"
+  },
+  "iron_sword": {
+    "name": "Железный меч",
+    "type": "weapon",
+    "slot": "weapon",
+    "stats": {
+      "attack": 5
+    },
+    "description": "Стандартный железный меч.",
+    "rarity": "common"
+  },
+  "amulet_of_life": {
+    "name": "Амулет жизни",
+    "type": "artifact",
+    "slot": "amulet",
+    "stats": {
+      "hp": 2
+    },
+    "description": "Небольшой амулет, дарующий жизненную силу.",
+    "rarity": "rare"
+  },
+  "orb_of_luck": {
+    "name": "Сфера удачи",
+    "type": "artifact",
+    "slot": "amulet",
+    "stats": {
+      "luck": 3
+    },
+    "description": "Таинственная сфера, приносящая удачу.",
+    "rarity": "epic"
+  },
+  "hunters_boots": {
+    "name": "Ботинки охотника",
+    "type": "armor",
+    "slot": "feet",
+    "stats": {
+      "luck": 3
+    },
+    "description": "Легкие ботинки, помогающие охотникам выслеживать добычу.",
+    "rarity": "uncommon"
+  }
+}
