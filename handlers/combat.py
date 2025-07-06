@@ -101,10 +101,10 @@ def get_combat_status_message(character: Character, enemy_data, combat_data) -> 
     enemy_effects_str = get_effects_str(combat_data['enemy_effects'])
     
     # Enhanced status with better formatting
-    status = (        f"🛡️ <b>{character.name}</b>
-"        f"❤️ {char_hp_bar} <code>{combat_data['player_hp']}/{combat_data['player_max_hp']}</code>
-"        f"✨ {get_hp_bar(character.current_mana, character.stats['max_mana'], bar_char='💙')} <code>{character.current_mana}/{character.stats['max_mana']}</code>
-"    )
+    status = (f"🛡️ <b>{character.name}</b>"
+              f"❤️ {char_hp_bar} <code>{combat_data['player_hp']}/{combat_data['player_max_hp']}</code>"
+              f"✨ {get_hp_bar(character.current_mana, character.stats['max_mana'], bar_char='💙')} <code>{character.current_mana}/{character.stats['max_mana']}</code>"
+             )
     
     if char_effects_str:
         status += f"🔮 {char_effects_str}\n"
