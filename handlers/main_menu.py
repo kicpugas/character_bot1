@@ -60,7 +60,6 @@ async def process_menu_battle(callback: CallbackQuery, state: FSMContext):
         return
 
     enemy_id = random.choice(list(ENEMIES_DATA.keys()))
-    await callback.message.edit_text(f"⚔️ Начинается бой с {ENEMIES_DATA[enemy_id]['name']}!", reply_markup=None)
     await start_combat(callback.message, state, character, enemy_id)
     await callback.answer()
 
