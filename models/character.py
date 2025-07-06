@@ -42,6 +42,7 @@ class Character:
             "exp_to_next": self.exp_to_next,
             "stat_points": self.stat_points,
             "gold": self.gold,
+            "current_mana": self.current_mana, # Added current_mana
             "stats": self.stats,
             "inventory": self.inventory,
             "equipment": self.equipment,

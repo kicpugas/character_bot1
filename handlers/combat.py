@@ -34,9 +34,9 @@ with open(BASE_DATA_PATH / 'abilities.json', 'r', encoding='utf-8') as f:
 router = Router()
 
 # --- Helper function for consistent inventory handling ---
-def get_inventory_items(character):
+def get_inventory_items(character: Character):
     """Return a list of item dicts from character inventory."""
-    inventory = character.get('inventory', [])
+    inventory = character.inventory
     if not inventory:
         return []
     
@@ -46,7 +46,7 @@ def get_inventory_items(character):
     # If inventory is a list of item_ids
     return [ITEMS_DATA[item_id] for item_id in inventory if item_id in ITEMS_DATA]
 
-async def start_combat(message: Message, state: FSMContext, character_data: dict, enemy_id: str):
+async def start_combat(message: Message, state: FSMContext, character: Character, enemy_id: str):
     """Initialize combat with proper error handling."""
     if enemy_id not in ENEMIES_DATA:
         await message.answer("❌ <b>Ошибка:</b> враг не найден!", reply_markup=main_menu_keyboard())
@@ -54,10 +54,10 @@ async def start_combat(message: Message, state: FSMContext, character_data: dict
     
     enemy_data = ENEMIES_DATA[enemy_id]
     combat_data = {
-        "player_hp": character_data['stats']['hp'],
-        "player_max_hp": character_data['stats']['max_hp'],
-        "player_mana": character_data['current_mana'], # Added player_mana
-        "player_max_mana": character_data['stats']['max_mana'], # Added player_max_mana
+        "player_hp": character.stats['hp'],
+        "player_max_hp": character.stats['max_hp'],
+        "player_mana": character.current_mana, # Added player_mana
+        "player_max_mana": character.stats['max_mana'], # Added player_max_mana
         "enemy_hp": enemy_data['hp'],
         "enemy_max_hp": enemy_data['hp'],
         "enemy_id": enemy_id,
@@ -70,17 +70,17 @@ async def start_combat(message: Message, state: FSMContext, character_data: dict
     
     
     # Initialize default inventory if missing
-    if 'inventory' not in character_data:
-        character_data['inventory'] = [
+    if not character.inventory:
+        character.inventory = [
             "small_healing_potion",
             "poison_bomb"
         ]
 
     await state.set_state(CombatState.in_combat)
-    await state.update_data(character=character_data, combat_data=combat_data)
+    await state.update_data(character=character, combat_data=combat_data)
     
     # Enhanced combat start message
-    initial_message = get_combat_status_message(character_data, enemy_data, combat_data)
+    initial_message = get_combat_status_message(character, enemy_data, combat_data)
     enemy_type_emoji = {"weak": "🐸", "normal": "🐺", "elite": "🦁", "boss": "🐉"}.get(enemy_data.get('type', 'normal'), "👹")
     
     await message.answer(
@@ -92,7 +92,7 @@ async def start_combat(message: Message, state: FSMContext, character_data: dict
         reply_markup=combat_keyboard()
     )
 
-def get_combat_status_message(character_data, enemy_data, combat_data) -> str:
+def get_combat_status_message(character: Character, enemy_data, combat_data) -> str:
     """Generate enhanced combat status display."""
     char_hp_bar = get_hp_bar(combat_data['player_hp'], combat_data['player_max_hp'])
     enemy_hp_bar = get_hp_bar(combat_data['enemy_hp'], combat_data['enemy_max_hp'])
@@ -101,7 +101,10 @@ def get_combat_status_message(character_data, enemy_data, combat_data) -> str:
     enemy_effects_str = get_effects_str(combat_data['enemy_effects'])
     
     # Enhanced status with better formatting
-    status = (        f"🛡️ <b>{character_data['name']}</b>\n"        f"❤️ {char_hp_bar} <code>{combat_data['player_hp']}/{combat_data['player_max_hp']}</code>\n"        f"✨ {get_hp_bar(character_data['current_mana'], character_data['stats']['max_mana'], bar_char='💙')} <code>{character_data['current_mana']}/{character_data['stats']['max_mana']}</code>\n"    )
+    status = (        f"🛡️ <b>{character.name}</b>
+"        f"❤️ {char_hp_bar} <code>{combat_data['player_hp']}/{combat_data['player_max_hp']}</code>
+"        f"✨ {get_hp_bar(character.current_mana, character.stats['max_mana'], bar_char='💙')} <code>{character.current_mana}/{character.stats['max_mana']}</code>
+"    )
     
     if char_effects_str:
         status += f"🔮 {char_effects_str}\n"
@@ -120,7 +123,7 @@ def get_combat_status_message(character_data, enemy_data, combat_data) -> str:
     
     return status
 
-async def end_combat_victory(callback: CallbackQuery, state: FSMContext, character, enemy):
+async def end_combat_victory(callback: CallbackQuery, state: FSMContext, character: Character, enemy):
     """Handle victory with enhanced message design."""
     await state.clear()
     
@@ -128,18 +131,18 @@ async def end_combat_victory(callback: CallbackQuery, state: FSMContext, charact
         loot_result = await get_loot(character['stats'].get('luck', 0), enemy['type'])
         
         # Update character data
-        character['exp'] += loot_result['xp']
-        character['gold'] += loot_result['gold']
-        character['stats']['hp'] = character['stats']['max_hp']
-        character['current_mana'] = character['stats']['max_mana'] # Restore mana after combat
+        character.exp += loot_result['xp']
+        character.gold += loot_result['gold']
+        character.stats['hp'] = character.stats['max_hp']
+        character.current_mana = character.stats['max_mana'] # Restore mana after combat
         
         # Initialize inventory if not exists
-        if 'inventory' not in character:
-            character['inventory'] = []
+        if not character.inventory:
+            character.inventory = []
         
         # Add loot items to inventory
         for item in loot_result['items']:
-            character['inventory'].append(item['item_id'])
+            character.inventory.append(item['item_id'])
 
         # Check for level up
         from utils.level_system import grant_exp
@@ -147,9 +150,7 @@ async def end_combat_victory(callback: CallbackQuery, state: FSMContext, charact
 
         # Save character
         from utils.database import save_character
-        from models.character import Character
-        char_obj = Character.from_dict(character)
-        await save_character(char_obj)
+        await save_character(character)
 
         # Format loot display with enhanced design
         rarity_colors = {
@@ -167,7 +168,7 @@ async def end_combat_victory(callback: CallbackQuery, state: FSMContext, charact
         if leveled_up:
             level_up_message = (
                 f"🎉 <b>ПОЗДРАВЛЯЕМ!</b> 🎉\n"
-                f"🆙 Уровень повышен до <b>{character['level']}</b>!\n"
+                f"🆙 Уровень повышен до <b>{character.level}</b>!\n"
                 f"⭐ +5 очков характеристик\n"
                 f"━━━━━━━━━━━━━━━━━━━\n\n"
             )
@@ -197,21 +198,19 @@ async def end_combat_victory(callback: CallbackQuery, state: FSMContext, charact
             reply_markup=main_menu_keyboard()
         )
 
-async def end_combat_defeat(callback: CallbackQuery, state: FSMContext, character: dict):
+async def end_combat_defeat(callback: CallbackQuery, state: FSMContext, character: Character):
     """Handle defeat with enhanced message design."""
     await state.clear()
     
     try:
-        gold_loss = int(character.get('gold', 0) * 0.10)
-        character['gold'] = max(0, character.get('gold', 0) - gold_loss)
-        character['stats']['hp'] = 1
-        character['current_mana'] = character['stats']['max_mana'] # Restore mana after defeat
+        gold_loss = int(character.gold * 0.10)
+        character.gold = max(0, character.gold - gold_loss)
+        character.stats['hp'] = 1
+        character.current_mana = character.stats['max_mana'] # Restore mana after defeat
         
         # Save character
         from utils.database import save_character
-        from models.character import Character
-        char_obj = Character.from_dict(character)
-        await save_character(char_obj)
+        await save_character(character)
         
         defeat_message = (
             f"💀 <b>ПОРАЖЕНИЕ...</b> 💀\n"
@@ -248,7 +247,7 @@ async def process_combat_turn(callback: CallbackQuery, state: FSMContext, player
     """Process combat turn with enhanced message formatting."""
     try:
         data = await state.get_data()
-        character = data.get('character')
+        character: Character = data.get('character')
         combat_data = data.get('combat_data')
         
         if not character or not combat_data:
@@ -327,14 +326,14 @@ async def process_combat_turn(callback: CallbackQuery, state: FSMContext, player
         )
         return [], "Ошибка обработки хода."
 
-async def process_player_action(player_action: dict, character: dict, combat_data: dict, enemy: dict, turn_log: list):
+async def process_player_action(player_action: dict, character: Character, combat_data: dict, enemy: dict, turn_log: list):
     """Process player's action with enhanced feedback."""
     action = player_action['action']
     
     if action == 'attack':
         if not is_evaded(enemy.get('luck', 0)):
-            is_crit = is_critical_hit(character['stats'].get('luck', 0))
-            player_damage = calculate_damage(character['stats']['attack'], enemy['defense'], is_crit=is_crit)
+            is_crit = is_critical_hit(character.stats.get('luck', 0))
+            player_damage = calculate_damage(character.stats['attack'], enemy['defense'], is_crit=is_crit)
             combat_data['enemy_hp'] -= player_damage
             
             if is_crit:
@@ -356,11 +355,11 @@ async def process_player_action(player_action: dict, character: dict, combat_dat
         if ability_details:
             # Check for mana cost
             mana_cost = ability_details.get('mana_cost', 0)
-            if character['current_mana'] < mana_cost:
+            if character.current_mana < mana_cost:
                 turn_log.append(f"❌ Недостаточно маны для использования {ability_details['display_name']} (требуется {mana_cost})!")
                 return
             
-            character['current_mana'] -= mana_cost
+            character.current_mana -= mana_cost
             turn_log.append(f"✨ Использовано {mana_cost} маны.")
 
             if ability_name == "fireball":
@@ -391,26 +390,26 @@ async def process_player_action(player_action: dict, character: dict, combat_dat
                     combat_data['player_hp'] + heal_amount,
                 )
                 turn_log.append(f"🧪 <b>Зелье лечения:</b> +<b>{heal_amount}</b> HP")
-                if item_name in character['inventory']:
-                    character['inventory'].remove(item_name)
+                if item_name in character.inventory:
+                    character.inventory.remove(item_name)
             elif item_name == "poison_bomb":
                 apply_effect(combat_data['enemy_effects'], item_details['effect'])
                 turn_log.append(f"💣 <b>Ядовитая бомба!</b> {enemy['name']} отравлен!")
-                if item_name in character['inventory']:
-                    character['inventory'].remove(item_name)
+                if item_name in character.inventory:
+                    character.inventory.remove(item_name)
         else:
             turn_log.append(f"❌ Неизвестный предмет: {item_name}")
 
-async def process_enemy_action(enemy: dict, combat_data: dict, character: dict, turn_log: list):
+async def process_enemy_action(enemy: dict, combat_data: dict, character: Character, turn_log: list):
     """Process enemy's action with enhanced feedback."""
     enemy_move = get_enemy_action(enemy, combat_data)
     
     if enemy_move['action'] == "attack":
-        if not is_evaded(character['stats'].get('luck', 0)):
+        if not is_evaded(character.stats.get('luck', 0)):
             is_crit = is_critical_hit(enemy.get('luck', 0))
             enemy_damage = calculate_damage(
                 enemy['attack'],
-                character['stats']['defense'],
+                character.stats['defense'],
                 is_crit=is_crit,
                 is_defending=combat_data.get('player_defending', False),
             )
@@ -499,7 +498,7 @@ async def select_ability(callback: CallbackQuery, state: FSMContext):
     logging.info(f"Combat: Ability button pressed by user {callback.from_user.id}")
     
     data = await state.get_data()
-    character = data['character']
+    character: Character = data['character']
     abilities = ABILITIES_DATA
     
     if not abilities:
@@ -537,7 +536,7 @@ async def back_to_combat_main(callback: CallbackQuery, state: FSMContext):
     
     await state.set_state(CombatState.in_combat)
     data = await state.get_data()
-    character = data['character']
+    character: Character = data['character']
     combat_data = data['combat_data']
     enemy = ENEMIES_DATA[combat_data['enemy_id']]
     
@@ -550,7 +549,7 @@ async def select_item(callback: CallbackQuery, state: FSMContext):
     logging.info(f"Combat: Inventory button pressed by user {callback.from_user.id}")
     
     data = await state.get_data()
-    character = data['character']
+    character: Character = data['character']
     items = get_inventory_items(character)
     
     if not items:
@@ -588,7 +587,7 @@ async def back_to_combat_main_from_inventory(callback: CallbackQuery, state: FSM
     
     await state.set_state(CombatState.in_combat)
     data = await state.get_data()
-    character = data['character']
+    character: Character = data['character']
     combat_data = data['combat_data']
     enemy = ENEMIES_DATA[combat_data['enemy_id']]
     

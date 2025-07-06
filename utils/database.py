@@ -32,17 +32,9 @@ async def save_character(character: Character):
     all_characters[character.user_id] = character
     await _save_all_characters(all_characters)
 
-async def get_character_data(user_id: int) -> dict | None:
+async def get_character_data(user_id: int) -> Character | None:
     all_characters = await _load_all_characters()
     char = all_characters.get(user_id)
     if char:
-        race_modifiers = RACES_DATA.get(char.race, {}).get('stat_modifiers', {})
-        class_modifiers = CLASSES_DATA.get(char.character_class, {}).get('stat_modifiers', {})
-        
-        base_stats_with_modifiers = apply_race_class_modifiers(char.stats, race_modifiers, class_modifiers)
-        final_stats, _ = calculate_total_stats(base_stats_with_modifiers, char.equipment)
-        
-        char_dict = char.to_dict()
-        char_dict['stats'] = final_stats
-        return char_dict
+        return char
     return None

@@ -1,1448 +1,539 @@
-Error loading data/races.json: [Errno 2] No such file or directory: 'C:\\Users\\׀¨ׁ‹׀½׀³ׁ‹ׁ\\character_bot\\handlers\\data\\data\\races.json'
-Error loading data/classes.json: [Errno 2] No such file or directory: 'C:\\Users\\׀¨ׁ‹׀½׀³ׁ‹ׁ\\character_bot\\handlers\\data\\data\\classes.json'2025-07-06 19:56:44,261 - aiogram.dispatcher - INFO - Polling stopped
-2025-07-06 19:56:44,497 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientOSError: [Errno 1] [SSL: APPLICATION_DATA_AFTER_CLOSE_NOTIFY] application data after close notify (_ssl.c:2685)
-2025-07-06 19:56:44,498 - aiogram.dispatcher - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 7940686992)
-2025-07-06 19:56:44,547 - aiogram.dispatcher - INFO - Polling stopped for bot @GambleUrFamily_Bot id=7940686992 - 'Êעמ?'
-2025-07-06 20:14:08,127 - aiogram.dispatcher - INFO - Start polling
-2025-07-06 20:14:08,866 - aiogram.dispatcher - INFO - Run polling for bot @GambleUrFamily_Bot id=7940686992 - 'Êעמ?'
-2025-07-06 20:15:13,161 - aiogram.event - INFO - Update id=359546959 is handled. Duration 704 ms by bot id=7940686992
-2025-07-06 20:15:16,915 - aiogram.event - INFO - Update id=359546960 is handled. Duration 406 ms by bot id=7940686992
-2025-07-06 20:15:20,245 - aiogram.event - INFO - Update id=359546961 is handled. Duration 172 ms by bot id=7940686992
-2025-07-06 20:15:39,689 - aiogram.event - INFO - Update id=359546962 is handled. Duration 593 ms by bot id=7940686992
-2025-07-06 20:15:46,440 - aiogram.event - INFO - Update id=359546963 is handled. Duration 421 ms by bot id=7940686992
-2025-07-06 20:15:47,839 - aiogram.event - INFO - Update id=359546964 is handled. Duration 389 ms by bot id=7940686992
-2025-07-06 20:15:49,522 - aiogram.event - INFO - Update id=359546965 is handled. Duration 438 ms by bot id=7940686992
-2025-07-06 20:15:53,068 - aiogram.event - INFO - Update id=359546966 is handled. Duration 405 ms by bot id=7940686992
-2025-07-06 20:15:55,071 - aiogram.event - INFO - Update id=359546967 is handled. Duration 265 ms by bot id=7940686992
-2025-07-06 20:15:56,561 - aiogram.event - INFO - Update id=359546968 is handled. Duration 327 ms by bot id=7940686992
-2025-07-06 20:16:07,902 - handlers.character - ERROR - Error processing photo: calculate_total_stats() takes 2 positional arguments but 3 were given
-2025-07-06 20:16:08,134 - aiogram.event - INFO - Update id=359546969 is handled. Duration 234 ms by bot id=7940686992
-2025-07-06 20:18:05,805 - aiogram.dispatcher - INFO - Start polling
-2025-07-06 20:18:06,034 - aiogram.dispatcher - INFO - Run polling for bot @GambleUrFamily_Bot id=7940686992 - 'Êעמ?'
-2025-07-06 20:19:07,030 - aiogram.event - INFO - Update id=359546970 is not handled. Duration 15 ms by bot id=7940686992
-2025-07-06 20:19:23,525 - aiogram.event - INFO - Update id=359546971 is handled. Duration 500 ms by bot id=7940686992
-2025-07-06 20:19:25,087 - aiogram.event - INFO - Update id=359546972 is handled. Duration 295 ms by bot id=7940686992
-2025-07-06 20:19:31,190 - aiogram.event - INFO - Update id=359546973 is handled. Duration 218 ms by bot id=7940686992
-2025-07-06 20:19:33,442 - aiogram.event - INFO - Update id=359546974 is handled. Duration 235 ms by bot id=7940686992
-2025-07-06 20:19:35,329 - aiogram.event - INFO - Update id=359546975 is handled. Duration 295 ms by bot id=7940686992
-2025-07-06 20:19:37,368 - aiogram.event - INFO - Update id=359546976 is handled. Duration 282 ms by bot id=7940686992
-2025-07-06 20:19:38,890 - aiogram.event - INFO - Update id=359546977 is handled. Duration 438 ms by bot id=7940686992
-2025-07-06 20:19:40,379 - aiogram.event - INFO - Update id=359546978 is handled. Duration 312 ms by bot id=7940686992
-2025-07-06 20:19:57,059 - handlers.character - ERROR - Error processing photo: name 'apply_race_class_modifiers' is not defined
-2025-07-06 20:19:57,743 - aiogram.event - INFO - Update id=359546979 is handled. Duration 765 ms by bot id=7940686992
-2025-07-06 20:21:33,029 - aiogram.dispatcher - INFO - Start polling
-2025-07-06 20:21:33,402 - aiogram.dispatcher - INFO - Run polling for bot @GambleUrFamily_Bot id=7940686992 - 'Êעמ?'
-2025-07-06 20:22:46,745 - aiogram.event - INFO - Update id=359546981 is handled. Duration 765 ms by bot id=7940686992
-2025-07-06 20:22:50,358 - aiogram.event - INFO - Update id=359546982 is handled. Duration 344 ms by bot id=7940686992
-2025-07-06 20:22:52,873 - aiogram.event - INFO - Update id=359546983 is handled. Duration 187 ms by bot id=7940686992
-2025-07-06 20:22:55,900 - aiogram.event - INFO - Update id=359546984 is handled. Duration 203 ms by bot id=7940686992
-2025-07-06 20:22:57,671 - aiogram.event - INFO - Update id=359546985 is handled. Duration 359 ms by bot id=7940686992
-2025-07-06 20:22:59,027 - aiogram.event - INFO - Update id=359546986 is handled. Duration 469 ms by bot id=7940686992
-2025-07-06 20:23:00,821 - aiogram.event - INFO - Update id=359546987 is handled. Duration 343 ms by bot id=7940686992
-2025-07-06 20:23:02,107 - aiogram.event - INFO - Update id=359546988 is handled. Duration 344 ms by bot id=7940686992
-2025-07-06 20:23:10,715 - aiogram.event - INFO - Update id=359546989 is handled. Duration 234 ms by bot id=7940686992
-2025-07-06 20:23:17,277 - handlers.character - ERROR - Error creating character: Character.__init__() got an unexpected keyword argument 'hp'
-2025-07-06 20:23:17,654 - aiogram.event - INFO - Update id=359546990 is handled. Duration 421 ms by bot id=7940686992
-2025-07-06 20:24:13,582 - aiogram.dispatcher - INFO - Start polling
-2025-07-06 20:24:13,705 - aiogram.dispatcher - INFO - Run polling for bot @GambleUrFamily_Bot id=7940686992 - 'Êעמ?'
-2025-07-06 20:25:03,636 - aiogram.event - INFO - Update id=359546991 is handled. Duration 437 ms by bot id=7940686992
-2025-07-06 20:25:05,806 - aiogram.event - INFO - Update id=359546992 is handled. Duration 344 ms by bot id=7940686992
-2025-07-06 20:25:08,671 - aiogram.event - INFO - Update id=359546993 is handled. Duration 202 ms by bot id=7940686992
-2025-07-06 20:25:12,044 - aiogram.event - INFO - Update id=359546994 is handled. Duration 264 ms by bot id=7940686992
-2025-07-06 20:25:13,807 - aiogram.event - INFO - Update id=359546995 is handled. Duration 264 ms by bot id=7940686992
-2025-07-06 20:25:14,997 - aiogram.event - INFO - Update id=359546996 is handled. Duration 280 ms by bot id=7940686992
-2025-07-06 20:25:16,459 - aiogram.event - INFO - Update id=359546997 is handled. Duration 311 ms by bot id=7940686992
-2025-07-06 20:25:17,918 - aiogram.event - INFO - Update id=359546998 is handled. Duration 327 ms by bot id=7940686992
-2025-07-06 20:25:24,054 - aiogram.event - INFO - Update id=359546999 is handled. Duration 171 ms by bot id=7940686992
-2025-07-06 20:25:25,598 - handlers.character - ERROR - Error creating character: name 'final_stats' is not defined
-2025-07-06 20:25:25,881 - aiogram.event - INFO - Update id=359547000 is handled. Duration 297 ms by bot id=7940686992
-2025-07-06 20:28:22,520 - aiogram.dispatcher - INFO - Start polling
-2025-07-06 20:28:22,718 - aiogram.dispatcher - INFO - Run polling for bot @GambleUrFamily_Bot id=7940686992 - 'Êעמ?'
-2025-07-06 20:28:47,160 - aiogram.event - INFO - Update id=359547001 is handled. Duration 1156 ms by bot id=7940686992
-2025-07-06 20:28:49,461 - aiogram.event - INFO - Update id=359547002 is handled. Duration 342 ms by bot id=7940686992
-2025-07-06 20:28:52,566 - aiogram.event - INFO - Update id=359547003 is handled. Duration 171 ms by bot id=7940686992
-2025-07-06 20:28:54,853 - aiogram.event - INFO - Update id=359547004 is handled. Duration 187 ms by bot id=7940686992
-2025-07-06 20:28:56,432 - aiogram.event - INFO - Update id=359547005 is handled. Duration 280 ms by bot id=7940686992
-2025-07-06 20:28:57,753 - aiogram.event - INFO - Update id=359547006 is handled. Duration 359 ms by bot id=7940686992
-2025-07-06 20:28:58,896 - aiogram.event - INFO - Update id=359547007 is handled. Duration 344 ms by bot id=7940686992
-2025-07-06 20:29:00,034 - aiogram.event - INFO - Update id=359547008 is handled. Duration 375 ms by bot id=7940686992
-2025-07-06 20:29:12,319 - aiogram.event - INFO - Update id=359547009 is handled. Duration 187 ms by bot id=7940686992
-2025-07-06 20:29:14,166 - aiogram.event - INFO - Update id=359547010 is handled. Duration 329 ms by bot id=7940686992
-2025-07-06 20:29:16,502 - aiogram.event - INFO - Update id=359547011 is handled. Duration 155 ms by bot id=7940686992
-2025-07-06 20:29:18,171 - aiogram.event - INFO - Update id=359547012 is handled. Duration 469 ms by bot id=7940686992
-2025-07-06 20:29:21,479 - aiogram.event - INFO - Update id=359547013 is handled. Duration 500 ms by bot id=7940686992
-2025-07-06 20:29:35,364 - aiogram.event - INFO - Update id=359547014 is not handled. Duration 0 ms by bot id=7940686992
-2025-07-06 20:29:48,333 - aiogram.event - INFO - Update id=359547015 is not handled. Duration 0 ms by bot id=7940686992
-2025-07-06 20:30:01,664 - aiogram.event - INFO - Update id=359547016 is not handled. Duration 0 ms by bot id=7940686992
-2025-07-06 20:30:16,732 - aiogram.event - INFO - Update id=359547017 is not handled. Duration 15 ms by bot id=7940686992
-2025-07-06 20:30:22,043 - aiogram.dispatcher - INFO - Polling stopped
-2025-07-06 20:30:22,315 - aiogram.dispatcher - INFO - Polling stopped for bot @GambleUrFamily_Bot id=7940686992 - 'Êעמ?'
-2025-07-06 20:40:48,345 - aiogram.dispatcher - INFO - Start polling
-2025-07-06 20:40:48,718 - aiogram.dispatcher - INFO - Run polling for bot @GambleUrFamily_Bot id=7940686992 - 'Êעמ?'
-2025-07-06 20:41:17,616 - aiogram.event - INFO - Update id=359547021 is handled. Duration 515 ms by bot id=7940686992
-2025-07-06 20:41:19,774 - aiogram.event - INFO - Update id=359547022 is handled. Duration 546 ms by bot id=7940686992
-2025-07-06 20:41:28,014 - aiogram.event - INFO - Update id=359547023 is not handled. Duration 30 ms by bot id=7940686992
-2025-07-06 20:41:33,776 - aiogram.event - INFO - Update id=359547024 is handled. Duration 515 ms by bot id=7940686992
-2025-07-06 20:42:32,443 - aiogram.event - INFO - Update id=359547025 is handled. Duration 718 ms by bot id=7940686992
-2025-07-06 20:43:07,317 - aiogram.event - INFO - Update id=359547026 is handled. Duration 687 ms by bot id=7940686992
-2025-07-06 20:43:11,028 - aiogram.event - INFO - Update id=359547027 is handled. Duration 515 ms by bot id=7940686992
-2025-07-06 20:43:17,184 - root - INFO - User 8092842581 entered leveling menu.
-2025-07-06 20:43:17,185 - root - INFO - User 8092842581 entered choosing_stat state with 5 stat points.
-2025-07-06 20:43:17,667 - aiogram.event - INFO - Update id=359547028 is handled. Duration 485 ms by bot id=7940686992
-2025-07-06 20:43:36,409 - root - INFO - User 8092842581 chose action: defense in leveling menu.
-2025-07-06 20:43:36,410 - root - INFO - User 8092842581 increased defense. Remaining stat points: 4
-2025-07-06 20:43:37,114 - aiogram.event - INFO - Update id=359547029 is handled. Duration 719 ms by bot id=7940686992
-2025-07-06 20:43:41,218 - root - INFO - User 8092842581 chose action: defense in leveling menu.
-2025-07-06 20:43:41,219 - root - INFO - User 8092842581 increased defense. Remaining stat points: 3
-2025-07-06 20:43:41,722 - aiogram.event - INFO - Update id=359547030 is handled. Duration 516 ms by bot id=7940686992
-2025-07-06 20:43:45,224 - root - INFO - User 8092842581 chose action: defense in leveling menu.
-2025-07-06 20:43:45,225 - root - INFO - User 8092842581 increased defense. Remaining stat points: 2
-2025-07-06 20:43:45,649 - aiogram.event - INFO - Update id=359547031 is handled. Duration 421 ms by bot id=7940686992
-2025-07-06 20:43:49,440 - root - INFO - User 8092842581 chose action: complete in leveling menu.
-2025-07-06 20:43:49,442 - root - INFO - User 8092842581 completed leveling. Character saved.
-2025-07-06 20:43:49,851 - aiogram.event - INFO - Update id=359547032 is handled. Duration 422 ms by bot id=7940686992
-2025-07-06 20:43:54,497 - aiogram.event - INFO - Update id=359547033 is handled. Duration 593 ms by bot id=7940686992
-2025-07-06 20:44:00,424 - aiogram.event - INFO - Update id=359547034 is handled. Duration 469 ms by bot id=7940686992
-2025-07-06 20:44:04,910 - aiogram.event - INFO - Update id=359547035 is handled. Duration 437 ms by bot id=7940686992
-2025-07-06 20:44:08,430 - aiogram.event - INFO - Update id=359547036 is handled. Duration 530 ms by bot id=7940686992
-2025-07-06 20:44:10,132 - root - INFO - Combat: Attack button pressed by user 8092842581
-2025-07-06 20:44:10,457 - aiogram.event - INFO - Update id=359547037 is handled. Duration 327 ms by bot id=7940686992
-2025-07-06 20:44:13,248 - root - INFO - Combat: Attack button pressed by user 8092842581
-2025-07-06 20:44:13,536 - aiogram.event - INFO - Update id=359547038 is handled. Duration 296 ms by bot id=7940686992
-2025-07-06 20:44:15,706 - root - INFO - Combat: Ability button pressed by user 8092842581
-2025-07-06 20:44:15,978 - aiogram.event - INFO - Update id=359547039 is handled. Duration 281 ms by bot id=7940686992
-2025-07-06 20:44:17,118 - root - INFO - Combat: Use ability button pressed by user 8092842581
-2025-07-06 20:44:17,422 - aiogram.event - INFO - Update id=359547040 is handled. Duration 311 ms by bot id=7940686992
-2025-07-06 20:44:18,517 - root - INFO - Combat: Ability button pressed by user 8092842581
-2025-07-06 20:44:18,779 - aiogram.event - INFO - Update id=359547041 is handled. Duration 281 ms by bot id=7940686992
-2025-07-06 20:44:19,689 - root - INFO - Combat: Use ability button pressed by user 8092842581
-2025-07-06 20:44:20,007 - aiogram.event - INFO - Update id=359547042 is handled. Duration 328 ms by bot id=7940686992
-2025-07-06 20:44:21,195 - root - INFO - Combat: Ability button pressed by user 8092842581
-2025-07-06 20:44:21,605 - aiogram.event - INFO - Update id=359547043 is handled. Duration 406 ms by bot id=7940686992
-2025-07-06 20:44:22,298 - root - INFO - Combat: Use ability button pressed by user 8092842581
-2025-07-06 20:44:22,775 - aiogram.event - INFO - Update id=359547044 is handled. Duration 484 ms by bot id=7940686992
-2025-07-06 20:44:25,759 - aiogram.event - INFO - Update id=359547045 is handled. Duration 500 ms by bot id=7940686992
-2025-07-06 20:44:35,311 - aiogram.event - INFO - Update id=359547046 is handled. Duration 530 ms by bot id=7940686992
-2025-07-06 20:44:41,188 - aiogram.event - INFO - Update id=359547047 is handled. Duration 640 ms by bot id=7940686992
-2025-07-06 20:44:45,886 - aiogram.event - INFO - Update id=359547048 is handled. Duration 750 ms by bot id=7940686992
-2025-07-06 20:47:18,476 - aiogram.dispatcher - INFO - Polling stopped
-2025-07-06 20:47:18,786 - aiogram.dispatcher - INFO - Polling stopped for bot @GambleUrFamily_Bot id=7940686992 - 'Êעמ?'
-2025-07-06 20:48:32,516 - aiogram.dispatcher - INFO - Start polling
-2025-07-06 20:48:32,636 - aiogram.dispatcher - INFO - Run polling for bot @GambleUrFamily_Bot id=7940686992 - 'Êעמ?'
-2025-07-06 20:48:40,731 - aiogram.event - INFO - Update id=359547050 is not handled. Duration 15 ms by bot id=7940686992
-2025-07-06 20:49:20,539 - aiogram.event - INFO - Update id=359547051 is not handled. Duration 0 ms by bot id=7940686992
-2025-07-06 20:49:27,271 - aiogram.event - INFO - Update id=359547052 is not handled. Duration 0 ms by bot id=7940686992
-2025-07-06 20:49:29,824 - aiogram.event - INFO - Update id=359547053 is not handled. Duration 0 ms by bot id=7940686992
-2025-07-06 20:49:35,064 - aiogram.event - INFO - Update id=359547054 is handled. Duration 468 ms by bot id=7940686992
-2025-07-06 20:49:36,499 - aiogram.event - INFO - Update id=359547055 is handled. Duration 405 ms by bot id=7940686992
-2025-07-06 20:49:45,097 - aiogram.event - INFO - Update id=359547056 is handled. Duration 203 ms by bot id=7940686992
-2025-07-06 20:49:47,843 - aiogram.event - INFO - Update id=359547057 is handled. Duration 203 ms by bot id=7940686992
-2025-07-06 20:49:50,674 - aiogram.event - INFO - Update id=359547058 is handled. Duration 344 ms by bot id=7940686992
-2025-07-06 20:49:51,772 - aiogram.event - INFO - Update id=359547059 is handled. Duration 265 ms by bot id=7940686992
-2025-07-06 20:49:53,557 - aiogram.event - INFO - Update id=359547060 is handled. Duration 311 ms by bot id=7940686992
-2025-07-06 20:49:58,229 - aiogram.event - INFO - Update id=359547061 is handled. Duration 266 ms by bot id=7940686992
-2025-07-06 20:50:02,968 - aiogram.event - INFO - Update id=359547062 is handled. Duration 250 ms by bot id=7940686992
-2025-07-06 20:50:05,534 - aiogram.event - INFO - Update id=359547063 is handled. Duration 281 ms by bot id=7940686992
-2025-07-06 20:50:07,636 - aiogram.event - INFO - Update id=359547064 is handled. Duration 139 ms by bot id=7940686992
-2025-07-06 20:50:11,158 - aiogram.event - INFO - Update id=359547065 is handled. Duration 719 ms by bot id=7940686992
-2025-07-06 20:50:12,630 - aiogram.event - INFO - Update id=359547066 is handled. Duration 389 ms by bot id=7940686992
-2025-07-06 20:50:14,144 - aiogram.event - INFO - Update id=359547067 is handled. Duration 405 ms by bot id=7940686992
-2025-07-06 20:50:15,977 - root - INFO - Combat: Attack button pressed by user 2139448887
-2025-07-06 20:50:16,338 - aiogram.event - INFO - Update id=359547068 is handled. Duration 358 ms by bot id=7940686992
-2025-07-06 20:50:18,202 - root - INFO - Combat: Attack button pressed by user 2139448887
-2025-07-06 20:50:18,471 - aiogram.event - INFO - Update id=359547069 is handled. Duration 281 ms by bot id=7940686992
-2025-07-06 20:50:19,439 - root - INFO - Combat: Attack button pressed by user 2139448887
-2025-07-06 20:50:19,776 - aiogram.event - INFO - Update id=359547070 is handled. Duration 344 ms by bot id=7940686992
-2025-07-06 20:50:20,517 - root - INFO - Combat: Attack button pressed by user 2139448887
-2025-07-06 20:50:20,774 - aiogram.event - INFO - Update id=359547071 is handled. Duration 265 ms by bot id=7940686992
-2025-07-06 20:50:23,031 - root - INFO - Combat: Defend button pressed by user 2139448887
-2025-07-06 20:50:23,288 - aiogram.event - INFO - Update id=359547072 is handled. Duration 265 ms by bot id=7940686992
-2025-07-06 20:50:27,606 - root - INFO - Combat: Ability button pressed by user 2139448887
-2025-07-06 20:50:28,087 - aiogram.event - INFO - Update id=359547073 is handled. Duration 483 ms by bot id=7940686992
-2025-07-06 20:50:29,781 - root - INFO - Combat: Use ability button pressed by user 2139448887
-2025-07-06 20:50:30,118 - aiogram.event - INFO - Update id=359547074 is handled. Duration 344 ms by bot id=7940686992
-2025-07-06 20:50:33,009 - root - INFO - Combat: Attack button pressed by user 2139448887
-2025-07-06 20:50:33,297 - aiogram.event - INFO - Update id=359547075 is handled. Duration 296 ms by bot id=7940686992
-2025-07-06 20:50:35,058 - root - INFO - Combat: Attack button pressed by user 2139448887
-2025-07-06 20:50:35,420 - aiogram.event - INFO - Update id=359547076 is handled. Duration 375 ms by bot id=7940686992
-2025-07-06 20:50:38,132 - aiogram.event - INFO - Update id=359547077 is not handled. Duration 0 ms by bot id=7940686992
-2025-07-06 20:50:43,720 - aiogram.event - INFO - Update id=359547078 is handled. Duration 594 ms by bot id=7940686992
-2025-07-06 20:50:45,905 - aiogram.event - INFO - Update id=359547079 is handled. Duration 406 ms by bot id=7940686992
-2025-07-06 20:50:47,560 - aiogram.event - INFO - Update id=359547080 is handled. Duration 421 ms by bot id=7940686992
-2025-07-06 20:50:48,750 - root - INFO - Combat: Attack button pressed by user 2139448887
-2025-07-06 20:50:49,010 - aiogram.event - INFO - Update id=359547081 is handled. Duration 264 ms by bot id=7940686992
-2025-07-06 20:50:49,974 - root - INFO - Combat: Attack button pressed by user 2139448887
-2025-07-06 20:50:50,294 - aiogram.event - INFO - Update id=359547082 is handled. Duration 344 ms by bot id=7940686992
-2025-07-06 20:50:50,985 - root - INFO - Combat: Attack button pressed by user 2139448887
-2025-07-06 20:50:51,256 - aiogram.event - INFO - Update id=359547083 is handled. Duration 280 ms by bot id=7940686992
-2025-07-06 20:50:51,925 - root - INFO - Combat: Attack button pressed by user 2139448887
-2025-07-06 20:50:52,281 - aiogram.event - INFO - Update id=359547084 is handled. Duration 375 ms by bot id=7940686992
-2025-07-06 20:50:56,578 - aiogram.event - INFO - Update id=359547085 is handled. Duration 436 ms by bot id=7940686992
-2025-07-06 20:50:59,107 - aiogram.event - INFO - Update id=359547086 is handled. Duration 297 ms by bot id=7940686992
-2025-07-06 20:51:02,808 - aiogram.event - INFO - Update id=359547087 is handled. Duration 594 ms by bot id=7940686992
-2025-07-06 20:51:04,918 - aiogram.event - INFO - Update id=359547088 is handled. Duration 546 ms by bot id=7940686992
-2025-07-06 20:51:06,851 - root - INFO - Entering show_equipment. Current state: InventoryState:in_inventory
-2025-07-06 20:51:06,851 - root - INFO - State set to ProfileState.viewing_equipment
-2025-07-06 20:51:07,122 - aiogram.event - INFO - Update id=359547089 is handled. Duration 280 ms by bot id=7940686992
-2025-07-06 20:51:10,351 - aiogram.event - INFO - Update id=359547090 is handled. Duration 484 ms by bot id=7940686992
-2025-07-06 20:51:12,437 - aiogram.event - INFO - Update id=359547091 is handled. Duration 625 ms by bot id=7940686992
-2025-07-06 20:51:18,130 - aiogram.event - INFO - Update id=359547092 is not handled. Duration 14 ms by bot id=7940686992
-2025-07-06 20:51:36,957 - aiogram.event - INFO - Update id=359547093 is not handled. Duration 0 ms by bot id=7940686992
-2025-07-06 20:51:41,055 - aiogram.event - INFO - Update id=359547094 is not handled. Duration 0 ms by bot id=7940686992
-2025-07-06 20:51:42,083 - aiogram.event - INFO - Update id=359547095 is not handled. Duration 0 ms by bot id=7940686992
-2025-07-06 20:51:44,605 - aiogram.event - INFO - Update id=359547096 is not handled. Duration 0 ms by bot id=7940686992
-2025-07-06 20:51:45,640 - aiogram.event - INFO - Update id=359547097 is not handled. Duration 15 ms by bot id=7940686992
-2025-07-06 20:51:47,529 - aiogram.event - INFO - Update id=359547098 is handled. Duration 390 ms by bot id=7940686992
-2025-07-06 20:51:49,153 - aiogram.event - INFO - Update id=359547099 is handled. Duration 594 ms by bot id=7940686992
-2025-07-06 20:51:52,117 - aiogram.event - INFO - Update id=359547100 is handled. Duration 500 ms by bot id=7940686992
-2025-07-06 20:51:54,340 - aiogram.event - INFO - Update id=359547102 is not handled. Duration 0 ms by bot id=7940686992
-2025-07-06 20:51:54,340 - aiogram.event - ERROR - Cause exception while process update id=359547102 by bot id=7940686992
-AttributeError: 'InaccessibleMessage' object has no attribute 'delete'
+
+Cancel deploy
+
+All logs
+Search
+Search
+
+Live tail
+GMT+6
+
+Menu
+
+==> Cloning from https://github.com/kicpugas/character_bot1
+==> Checking out commit 648a40cdfb2897af65560b6f5612de7450b38c85 in branch main
+==> Downloading cache...
+==> Transferred 82MB in 7s. Extraction took 2s.
+==> Using Python version 3.13.4 (default)
+==> Docs on specifying a Python version: https://render.com/docs/python-version
+==> Using Poetry version 2.1.3 (default)
+==> Docs on specifying a Poetry version: https://render.com/docs/poetry-version
+==> Running build command 'pip install -r requirements.txt'...
+Collecting aiogram==3.10.0 (from -r requirements.txt (line 1))
+  Using cached aiogram-3.10.0-py3-none-any.whl.metadata (7.3 kB)
+Collecting aiohttp-socks (from -r requirements.txt (line 2))
+  Using cached aiohttp_socks-0.10.1-py3-none-any.whl.metadata (3.5 kB)
+Collecting aiofiles~=23.2.1 (from aiogram==3.10.0->-r requirements.txt (line 1))
+  Using cached aiofiles-23.2.1-py3-none-any.whl.metadata (9.7 kB)
+Collecting aiohttp~=3.9.0 (from aiogram==3.10.0->-r requirements.txt (line 1))
+  Using cached aiohttp-3.9.5-cp313-cp313-linux_x86_64.whl
+Collecting certifi>=2023.7.22 (from aiogram==3.10.0->-r requirements.txt (line 1))
+  Using cached certifi-2025.6.15-py3-none-any.whl.metadata (2.4 kB)
+Collecting magic-filter<1.1,>=1.0.12 (from aiogram==3.10.0->-r requirements.txt (line 1))
+  Using cached magic_filter-1.0.12-py3-none-any.whl.metadata (1.5 kB)
+Collecting pydantic<2.9,>=2.4.1 (from aiogram==3.10.0->-r requirements.txt (line 1))
+  Using cached pydantic-2.8.2-py3-none-any.whl.metadata (125 kB)
+Collecting typing-extensions<=5.0,>=4.7.0 (from aiogram==3.10.0->-r requirements.txt (line 1))
+  Using cached typing_extensions-4.14.1-py3-none-any.whl.metadata (3.0 kB)
+Collecting aiosignal>=1.1.2 (from aiohttp~=3.9.0->aiogram==3.10.0->-r requirements.txt (line 1))
+  Using cached aiosignal-1.4.0-py3-none-any.whl.metadata (3.7 kB)
+Collecting attrs>=17.3.0 (from aiohttp~=3.9.0->aiogram==3.10.0->-r requirements.txt (line 1))
+  Using cached attrs-25.3.0-py3-none-any.whl.metadata (10 kB)
+Collecting frozenlist>=1.1.1 (from aiohttp~=3.9.0->aiogram==3.10.0->-r requirements.txt (line 1))
+  Using cached frozenlist-1.7.0-cp313-cp313-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (18 kB)
+Collecting multidict<7.0,>=4.5 (from aiohttp~=3.9.0->aiogram==3.10.0->-r requirements.txt (line 1))
+  Using cached multidict-6.6.3-cp313-cp313-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl.metadata (5.3 kB)
+Collecting yarl<2.0,>=1.0 (from aiohttp~=3.9.0->aiogram==3.10.0->-r requirements.txt (line 1))
+  Using cached yarl-1.20.1-cp313-cp313-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (73 kB)
+Collecting annotated-types>=0.4.0 (from pydantic<2.9,>=2.4.1->aiogram==3.10.0->-r requirements.txt (line 1))
+  Using cached annotated_types-0.7.0-py3-none-any.whl.metadata (15 kB)
+Collecting pydantic-core==2.20.1 (from pydantic<2.9,>=2.4.1->aiogram==3.10.0->-r requirements.txt (line 1))
+  Using cached pydantic_core-2.20.1-cp313-cp313-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (6.6 kB)
+Collecting idna>=2.0 (from yarl<2.0,>=1.0->aiohttp~=3.9.0->aiogram==3.10.0->-r requirements.txt (line 1))
+  Using cached idna-3.10-py3-none-any.whl.metadata (10 kB)
+Collecting propcache>=0.2.1 (from yarl<2.0,>=1.0->aiohttp~=3.9.0->aiogram==3.10.0->-r requirements.txt (line 1))
+  Using cached propcache-0.3.2-cp313-cp313-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (12 kB)
+INFO: pip is looking at multiple versions of aiohttp-socks to determine which version is compatible with other requirements. This could take a while.
+Collecting aiohttp-socks (from -r requirements.txt (line 2))
+  Using cached aiohttp_socks-0.10.0-py3-none-any.whl.metadata (3.5 kB)
+  Using cached aiohttp_socks-0.9.2-py3-none-any.whl.metadata (3.9 kB)
+  Using cached aiohttp_socks-0.9.1-py3-none-any.whl.metadata (3.9 kB)
+  Using cached aiohttp_socks-0.9.0-py3-none-any.whl.metadata (3.0 kB)
+  Using cached aiohttp_socks-0.8.4-py3-none-any.whl.metadata (3.1 kB)
+Collecting python-socks<3.0.0,>=2.4.3 (from python-socks[asyncio]<3.0.0,>=2.4.3->aiohttp-socks->-r requirements.txt (line 2))
+  Using cached python_socks-2.7.1-py3-none-any.whl.metadata (8.0 kB)
+Using cached aiogram-3.10.0-py3-none-any.whl (570 kB)
+Using cached aiofiles-23.2.1-py3-none-any.whl (15 kB)
+Using cached magic_filter-1.0.12-py3-none-any.whl (11 kB)
+Using cached multidict-6.6.3-cp313-cp313-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl (254 kB)
+Using cached pydantic-2.8.2-py3-none-any.whl (423 kB)
+Using cached pydantic_core-2.20.1-cp313-cp313-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (2.1 MB)
+Using cached typing_extensions-4.14.1-py3-none-any.whl (43 kB)
+Using cached yarl-1.20.1-cp313-cp313-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (352 kB)
+Using cached aiohttp_socks-0.8.4-py3-none-any.whl (9.6 kB)
+Using cached python_socks-2.7.1-py3-none-any.whl (54 kB)
+Using cached aiosignal-1.4.0-py3-none-any.whl (7.5 kB)
+Using cached annotated_types-0.7.0-py3-none-any.whl (13 kB)
+Using cached attrs-25.3.0-py3-none-any.whl (63 kB)
+Using cached certifi-2025.6.15-py3-none-any.whl (157 kB)
+Using cached frozenlist-1.7.0-cp313-cp313-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl (232 kB)
+Using cached idna-3.10-py3-none-any.whl (70 kB)
+Using cached propcache-0.3.2-cp313-cp313-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (206 kB)
+Installing collected packages: typing-extensions, python-socks, propcache, multidict, magic-filter, idna, frozenlist, certifi, attrs, annotated-types, aiofiles, yarl, pydantic-core, aiosignal, pydantic, aiohttp, aiohttp-socks, aiogram
+Successfully installed aiofiles-23.2.1 aiogram-3.10.0 aiohttp-3.9.5 aiohttp-socks-0.8.4 aiosignal-1.4.0 annotated-types-0.7.0 attrs-25.3.0 certifi-2025.6.15 frozenlist-1.7.0 idna-3.10 magic-filter-1.0.12 multidict-6.6.3 propcache-0.3.2 pydantic-2.8.2 pydantic-core-2.20.1 python-socks-2.7.1 typing-extensions-4.14.1 yarl-1.20.1
+==> Uploading build...
+==> Uploaded in 3.6s. Compression took 1.0s
+==> Build successful נ‰
+==> Deploying...
+==> Running 'python bot.py'
+==> Your service is live נ‰
+==> 
+==> ///////////////////////////////////////////////////////////
+==> 
+==> Available at your primary URL https://character-bot1.onrender.com
+==> 
+==> ///////////////////////////////////////////////////////////
+ERROR:aiohttp.server:Error handling request
 Traceback (most recent call last):
-  File "C:\Users\״ûםדûס\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 309, in _process_update
-    response = await self.feed_update(bot, update, **kwargs)
-               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\״ûםדûס\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 158, in feed_update
+  File "/opt/render/project/src/.venv/lib/python3.13/site-packages/aiohttp/web_protocol.py", line 452, in _handle_request
+    resp = await request_handler(request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/render/project/src/.venv/lib/python3.13/site-packages/aiohttp/web_app.py", line 543, in _handle
+    resp = await handler(request)
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/render/project/src/bot.py", line 32, in webhook_handler
+    await dp.feed_update(bot, update)
+  File "/opt/render/project/src/.venv/lib/python3.13/site-packages/aiogram/dispatcher/dispatcher.py", line 158, in feed_update
     response = await self.update.wrap_outer_middleware(
                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\״ûםדûס\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiogram\dispatcher\middlewares\error.py", line 25, in __call__
+    ...<7 lines>...
+    )
+    ^
+  File "/opt/render/project/src/.venv/lib/python3.13/site-packages/aiogram/dispatcher/middlewares/error.py", line 25, in __call__
     return await handler(event, data)
            ^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\״ûםדûס\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiogram\dispatcher\middlewares\user_context.py", line 49, in __call__
+  File "/opt/render/project/src/.venv/lib/python3.13/site-packages/aiogram/dispatcher/middlewares/user_context.py", line 49, in __call__
     return await handler(event, data)
            ^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\״ûםדûס\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiogram\fsm\middleware.py", line 42, in __call__
+  File "/opt/render/project/src/.venv/lib/python3.13/site-packages/aiogram/fsm/middleware.py", line 42, in __call__
     return await handler(event, data)
            ^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\״ûםדûס\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+  File "/opt/render/project/src/.venv/lib/python3.13/site-packages/aiogram/dispatcher/event/telegram.py", line 121, in trigger
     return await wrapped_inner(event, kwargs)
            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\״ûםדûס\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+  File "/opt/render/project/src/.venv/lib/python3.13/site-packages/aiogram/dispatcher/event/handler.py", line 43, in call
     return await wrapped()
            ^^^^^^^^^^^^^^^
-  File "C:\Users\״ûםדûס\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 276, in _listen_update
+  File "/opt/render/project/src/.venv/lib/python3.13/site-packages/aiogram/dispatcher/dispatcher.py", line 276, in _listen_update
     return await self.propagate_event(update_type=update_type, event=event, **kwargs)
            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\״ûםדûס\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiogram\dispatcher\router.py", line 142, in propagate_event
+  File "/opt/render/project/src/.venv/lib/python3.13/site-packages/aiogram/dispatcher/router.py", line 142, in propagate_event
     return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\״ûםדûס\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiogram\dispatcher\router.py", line 137, in _wrapped
+  File "/opt/render/project/src/.venv/lib/python3.13/site-packages/aiogram/dispatcher/router.py", line 137, in _wrapped
     return await self._propagate_event(
            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\״ûםדûס\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiogram\dispatcher\router.py", line 170, in _propagate_event
+        observer=observer, update_type=update_type, event=telegram_event, **data
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/opt/render/project/src/.venv/lib/python3.13/site-packages/aiogram/dispatcher/router.py", line 170, in _propagate_event
     response = await router.propagate_event(update_type=update_type, event=event, **kwargs)
                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\״ûםדûס\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiogram\dispatcher\router.py", line 142, in propagate_event
+  File "/opt/render/project/src/.venv/lib/python3.13/site-packages/aiogram/dispatcher/router.py", line 142, in propagate_event
     return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\״ûםדûס\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiogram\dispatcher\router.py", line 137, in _wrapped
+  File "/opt/render/project/src/.venv/lib/python3.13/site-packages/aiogram/dispatcher/router.py", line 137, in _wrapped
     return await self._propagate_event(
            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\״ûםדûס\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiogram\dispatcher\router.py", line 162, in _propagate_event
+        observer=observer, update_type=update_type, event=telegram_event, **data
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/opt/render/project/src/.venv/lib/python3.13/site-packages/aiogram/dispatcher/router.py", line 162, in _propagate_event
     response = await observer.trigger(event, **kwargs)
                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\״ûםדûס\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+  File "/opt/render/project/src/.venv/lib/python3.13/site-packages/aiogram/dispatcher/event/telegram.py", line 121, in trigger
     return await wrapped_inner(event, kwargs)
            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\״ûםדûס\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+  File "/opt/render/project/src/.venv/lib/python3.13/site-packages/aiogram/dispatcher/event/handler.py", line 43, in call
     return await wrapped()
            ^^^^^^^^^^^^^^^
-  File "C:\Users\״ûםדûס\character_bot\handlers\profile.py", line 53, in show_profile
-    await callback.message.delete()
-          ^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\״ûםדûס\AppData\Local\Programs\Python\Python312\Lib\site-packages\pydantic\main.py", line 828, in __getattr__
-    raise AttributeError(f'{type(self).__name__!r} object has no attribute {item!r}')
-AttributeError: 'InaccessibleMessage' object has no attribute 'delete'
-2025-07-06 20:51:54,717 - aiogram.event - INFO - Update id=359547101 is handled. Duration 547 ms by bot id=7940686992
-2025-07-06 20:51:56,038 - aiogram.event - INFO - Update id=359547103 is handled. Duration 515 ms by bot id=7940686992
-2025-07-06 20:51:57,798 - aiogram.event - INFO - Update id=359547104 is handled. Duration 500 ms by bot id=7940686992
-2025-07-06 20:51:59,349 - root - INFO - Combat: Attack button pressed by user 2139448887
-2025-07-06 20:51:59,696 - aiogram.event - INFO - Update id=359547105 is handled. Duration 343 ms by bot id=7940686992
-2025-07-06 20:52:00,436 - root - INFO - Combat: Attack button pressed by user 2139448887
-2025-07-06 20:52:00,862 - aiogram.event - INFO - Update id=359547106 is handled. Duration 438 ms by bot id=7940686992
-2025-07-06 20:52:02,455 - root - INFO - Combat: Attack button pressed by user 2139448887
-2025-07-06 20:52:02,719 - aiogram.event - INFO - Update id=359547107 is handled. Duration 281 ms by bot id=7940686992
-2025-07-06 20:52:03,519 - root - INFO - Combat: Attack button pressed by user 2139448887
-2025-07-06 20:52:03,876 - aiogram.event - INFO - Update id=359547108 is handled. Duration 375 ms by bot id=7940686992
-2025-07-06 20:52:04,713 - root - INFO - Combat: Attack button pressed by user 2139448887
-2025-07-06 20:52:05,167 - aiogram.event - INFO - Update id=359547109 is handled. Duration 454 ms by bot id=7940686992
-2025-07-06 20:52:06,633 - root - INFO - Combat: Attack button pressed by user 2139448887
-2025-07-06 20:52:06,915 - aiogram.event - INFO - Update id=359547110 is handled. Duration 281 ms by bot id=7940686992
-2025-07-06 20:52:07,839 - root - INFO - Combat: Attack button pressed by user 2139448887
-2025-07-06 20:52:08,107 - aiogram.event - INFO - Update id=359547111 is handled. Duration 282 ms by bot id=7940686992
-2025-07-06 20:52:11,553 - aiogram.event - INFO - Update id=359547112 is handled. Duration 405 ms by bot id=7940686992
-2025-07-06 20:52:14,750 - aiogram.event - INFO - Update id=359547113 is handled. Duration 437 ms by bot id=7940686992
-2025-07-06 20:52:16,312 - aiogram.event - INFO - Update id=359547114 is handled. Duration 421 ms by bot id=7940686992
-2025-07-06 20:52:17,338 - root - INFO - Combat: Attack button pressed by user 2139448887
-2025-07-06 20:52:17,729 - aiogram.event - INFO - Update id=359547115 is handled. Duration 391 ms by bot id=7940686992
-2025-07-06 20:52:18,393 - root - INFO - Combat: Attack button pressed by user 2139448887
-2025-07-06 20:52:18,673 - aiogram.event - INFO - Update id=359547116 is handled. Duration 296 ms by bot id=7940686992
-2025-07-06 20:52:19,394 - root - INFO - Combat: Attack button pressed by user 2139448887
-2025-07-06 20:52:19,683 - aiogram.event - INFO - Update id=359547117 is handled. Duration 296 ms by bot id=7940686992
-2025-07-06 20:52:20,454 - root - INFO - Combat: Attack button pressed by user 2139448887
-2025-07-06 20:52:20,720 - aiogram.event - INFO - Update id=359547118 is handled. Duration 281 ms by bot id=7940686992
-2025-07-06 20:52:21,579 - root - INFO - Combat: Attack button pressed by user 2139448887
-2025-07-06 20:52:21,864 - aiogram.event - INFO - Update id=359547119 is handled. Duration 297 ms by bot id=7940686992
-2025-07-06 20:52:22,586 - root - INFO - Combat: Attack button pressed by user 2139448887
-2025-07-06 20:52:22,968 - aiogram.event - INFO - Update id=359547120 is handled. Duration 391 ms by bot id=7940686992
-2025-07-06 20:52:23,982 - root - INFO - Combat: Attack button pressed by user 2139448887
-2025-07-06 20:52:24,336 - aiogram.event - INFO - Update id=359547121 is handled. Duration 358 ms by bot id=7940686992
-2025-07-06 20:52:27,339 - aiogram.event - INFO - Update id=359547122 is handled. Duration 405 ms by bot id=7940686992
-2025-07-06 20:52:29,795 - aiogram.event - INFO - Update id=359547123 is handled. Duration 609 ms by bot id=7940686992
-2025-07-06 20:52:32,572 - aiogram.event - INFO - Update id=359547124 is handled. Duration 640 ms by bot id=7940686992
-2025-07-06 20:52:33,651 - aiogram.event - INFO - Update id=359547125 is not handled. Duration 0 ms by bot id=7940686992
-2025-07-06 20:52:38,995 - aiogram.event - INFO - Update id=359547126 is not handled. Duration 0 ms by bot id=7940686992
-2025-07-06 20:52:47,131 - aiogram.event - INFO - Update id=359547127 is not handled. Duration 0 ms by bot id=7940686992
-2025-07-06 20:52:50,679 - aiogram.event - INFO - Update id=359547128 is not handled. Duration 0 ms by bot id=7940686992
-2025-07-06 20:52:52,853 - aiogram.event - INFO - Update id=359547129 is not handled. Duration 0 ms by bot id=7940686992
-2025-07-06 20:52:55,470 - aiogram.event - INFO - Update id=359547130 is not handled. Duration 0 ms by bot id=7940686992
-2025-07-06 20:53:06,825 - aiogram.event - INFO - Update id=359547131 is not handled. Duration 14 ms by bot id=7940686992
-2025-07-06 20:53:10,060 - aiogram.event - INFO - Update id=359547132 is not handled. Duration 15 ms by bot id=7940686992
-2025-07-06 20:53:14,968 - aiogram.event - INFO - Update id=359547133 is not handled. Duration 0 ms by bot id=7940686992
-2025-07-06 20:53:16,682 - aiogram.event - INFO - Update id=359547134 is not handled. Duration 0 ms by bot id=7940686992
-2025-07-06 20:53:18,815 - aiogram.event - INFO - Update id=359547135 is not handled. Duration 0 ms by bot id=7940686992
-2025-07-06 20:53:24,662 - aiogram.event - INFO - Update id=359547136 is not handled. Duration 0 ms by bot id=7940686992
-2025-07-06 20:53:26,817 - aiogram.event - INFO - Update id=359547137 is handled. Duration 468 ms by bot id=7940686992
-2025-07-06 20:53:29,440 - aiogram.event - INFO - Update id=359547138 is handled. Duration 485 ms by bot id=7940686992
-2025-07-06 20:53:30,389 - root - INFO - Combat: Attack button pressed by user 2139448887
-2025-07-06 20:53:30,695 - aiogram.event - INFO - Update id=359547139 is handled. Duration 312 ms by bot id=7940686992
-2025-07-06 20:53:31,075 - aiogram.event - INFO - Update id=359547140 is not handled. Duration 14 ms by bot id=7940686992
-2025-07-06 20:53:31,484 - root - INFO - Combat: Attack button pressed by user 2139448887
-2025-07-06 20:53:31,785 - aiogram.event - INFO - Update id=359547141 is handled. Duration 312 ms by bot id=7940686992
-2025-07-06 20:53:33,350 - root - INFO - Combat: Ability button pressed by user 2139448887
-2025-07-06 20:53:33,930 - aiogram.event - INFO - Update id=359547142 is handled. Duration 594 ms by bot id=7940686992
-2025-07-06 20:53:34,973 - root - INFO - Combat: Use ability button pressed by user 2139448887
-2025-07-06 20:53:37,805 - aiogram.event - INFO - Update id=359547143 is handled. Duration 2844 ms by bot id=7940686992
-2025-07-06 20:53:40,275 - aiogram.event - INFO - Update id=359547144 is handled. Duration 405 ms by bot id=7940686992
-2025-07-06 20:53:41,171 - aiogram.event - INFO - Update id=359547145 is not handled. Duration 0 ms by bot id=7940686992
-2025-07-06 20:53:41,890 - aiogram.event - INFO - Update id=359547146 is handled. Duration 421 ms by bot id=7940686992
-2025-07-06 20:53:44,721 - aiogram.event - INFO - Update id=359547147 is handled. Duration 172 ms by bot id=7940686992
-2025-07-06 20:53:45,532 - aiogram.event - INFO - Update id=359547148 is handled. Duration 454 ms by bot id=7940686992
-2025-07-06 20:53:46,385 - aiogram.event - INFO - Update id=359547149 is handled. Duration 155 ms by bot id=7940686992
-2025-07-06 20:53:47,487 - root - INFO - User 2139448887 entered leveling menu.
-2025-07-06 20:53:47,488 - root - INFO - User 2139448887 entered choosing_stat state with 5 stat points.
-2025-07-06 20:53:47,967 - aiogram.event - INFO - Update id=359547150 is handled. Duration 500 ms by bot id=7940686992
-2025-07-06 20:53:51,799 - root - INFO - User 2139448887 chose action: hp in leveling menu.
-2025-07-06 20:53:51,800 - root - INFO - User 2139448887 increased hp. Remaining stat points: 4
-2025-07-06 20:53:52,532 - aiogram.event - INFO - Update id=359547151 is handled. Duration 750 ms by bot id=7940686992
-2025-07-06 20:53:53,253 - aiogram.event - INFO - Update id=359547152 is not handled. Duration 0 ms by bot id=7940686992
-2025-07-06 20:53:53,646 - root - INFO - User 2139448887 chose action: hp in leveling menu.
-2025-07-06 20:53:53,647 - root - INFO - User 2139448887 increased hp. Remaining stat points: 3
-2025-07-06 20:53:54,097 - aiogram.event - INFO - Update id=359547153 is handled. Duration 453 ms by bot id=7940686992
-2025-07-06 20:53:55,210 - root - INFO - User 2139448887 chose action: attack in leveling menu.
-2025-07-06 20:53:55,211 - root - INFO - User 2139448887 increased attack. Remaining stat points: 2
-2025-07-06 20:53:55,659 - aiogram.event - INFO - Update id=359547154 is handled. Duration 454 ms by bot id=7940686992
-2025-07-06 20:53:56,695 - root - INFO - User 2139448887 chose action: attack in leveling menu.
-2025-07-06 20:53:56,697 - root - INFO - User 2139448887 increased attack. Remaining stat points: 1
-2025-07-06 20:53:57,155 - aiogram.event - INFO - Update id=359547155 is handled. Duration 469 ms by bot id=7940686992
-2025-07-06 20:53:59,009 - root - INFO - User 2139448887 chose action: attack in leveling menu.
-2025-07-06 20:53:59,010 - root - INFO - User 2139448887 increased attack. Remaining stat points: 0
-2025-07-06 20:53:59,490 - aiogram.event - INFO - Update id=359547156 is handled. Duration 485 ms by bot id=7940686992
-2025-07-06 20:54:01,439 - root - INFO - User 2139448887 chose action: complete in leveling menu.
-2025-07-06 20:54:01,461 - root - INFO - User 2139448887 completed leveling. Character saved.
-2025-07-06 20:54:01,872 - aiogram.event - INFO - Update id=359547157 is handled. Duration 453 ms by bot id=7940686992
-2025-07-06 20:54:04,033 - aiogram.event - INFO - Update id=359547158 is handled. Duration 454 ms by bot id=7940686992
-2025-07-06 20:54:08,045 - aiogram.event - INFO - Update id=359547159 is handled. Duration 484 ms by bot id=7940686992
-2025-07-06 20:54:12,260 - aiogram.event - INFO - Update id=359547160 is handled. Duration 468 ms by bot id=7940686992
-2025-07-06 20:54:14,792 - aiogram.event - INFO - Update id=359547161 is not handled. Duration 15 ms by bot id=7940686992
-2025-07-06 20:54:14,792 - aiogram.event - ERROR - Cause exception while process update id=359547161 by bot id=7940686992
-JSONDecodeError: Expecting value: line 22 column 23 (char 576)
+  File "/opt/render/project/src/handlers/main_menu.py", line 63, in process_menu_battle
+    await start_combat(callback.message, state, character, enemy_id)
+  File "/opt/render/project/src/handlers/combat.py", line 59, in start_combat
+    "player_mana": character_data['current_mana'], # Added player_mana
+                   ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^
+KeyError: 'current_mana'
+ERROR:aiohttp.server:Error handling request
 Traceback (most recent call last):
-  File "C:\Users\״ûםדûס\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 309, in _process_update
-    response = await self.feed_update(bot, update, **kwargs)
-               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\״ûםדûס\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 158, in feed_update
+  File "/opt/render/project/src/.venv/lib/python3.13/site-packages/aiohttp/web_protocol.py", line 452, in _handle_request
+    resp = await request_handler(request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/render/project/src/.venv/lib/python3.13/site-packages/aiohttp/web_app.py", line 543, in _handle
+    resp = await handler(request)
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/render/project/src/bot.py", line 32, in webhook_handler
+    await dp.feed_update(bot, update)
+  File "/opt/render/project/src/.venv/lib/python3.13/site-packages/aiogram/dispatcher/dispatcher.py", line 158, in feed_update
     response = await self.update.wrap_outer_middleware(
                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\״ûםדûס\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiogram\dispatcher\middlewares\error.py", line 25, in __call__
+    ...<7 lines>...
+    )
+    ^
+  File "/opt/render/project/src/.venv/lib/python3.13/site-packages/aiogram/dispatcher/middlewares/error.py", line 25, in __call__
     return await handler(event, data)
            ^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\״ûםדûס\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiogram\dispatcher\middlewares\user_context.py", line 49, in __call__
+  File "/opt/render/project/src/.venv/lib/python3.13/site-packages/aiogram/dispatcher/middlewares/user_context.py", line 49, in __call__
     return await handler(event, data)
            ^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\״ûםדûס\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiogram\fsm\middleware.py", line 42, in __call__
+  File "/opt/render/project/src/.venv/lib/python3.13/site-packages/aiogram/fsm/middleware.py", line 42, in __call__
     return await handler(event, data)
            ^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\״ûםדûס\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+  File "/opt/render/project/src/.venv/lib/python3.13/site-packages/aiogram/dispatcher/event/telegram.py", line 121, in trigger
     return await wrapped_inner(event, kwargs)
            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\״ûםדûס\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+  File "/opt/render/project/src/.venv/lib/python3.13/site-packages/aiogram/dispatcher/event/handler.py", line 43, in call
     return await wrapped()
            ^^^^^^^^^^^^^^^
-  File "C:\Users\״ûםדûס\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 276, in _listen_update
+  File "/opt/render/project/src/.venv/lib/python3.13/site-packages/aiogram/dispatcher/dispatcher.py", line 276, in _listen_update
     return await self.propagate_event(update_type=update_type, event=event, **kwargs)
            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\״ûםדûס\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiogram\dispatcher\router.py", line 142, in propagate_event
+  File "/opt/render/project/src/.venv/lib/python3.13/site-packages/aiogram/dispatcher/router.py", line 142, in propagate_event
     return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\״ûםדûס\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiogram\dispatcher\router.py", line 137, in _wrapped
+  File "/opt/render/project/src/.venv/lib/python3.13/site-packages/aiogram/dispatcher/router.py", line 137, in _wrapped
     return await self._propagate_event(
            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\״ûםדûס\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiogram\dispatcher\router.py", line 170, in _propagate_event
+        observer=observer, update_type=update_type, event=telegram_event, **data
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/opt/render/project/src/.venv/lib/python3.13/site-packages/aiogram/dispatcher/router.py", line 170, in _propagate_event
     response = await router.propagate_event(update_type=update_type, event=event, **kwargs)
                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\״ûםדûס\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiogram\dispatcher\router.py", line 142, in propagate_event
+  File "/opt/render/project/src/.venv/lib/python3.13/site-packages/aiogram/dispatcher/router.py", line 142, in propagate_event
     return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\״ûםדûס\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiogram\dispatcher\router.py", line 137, in _wrapped
+  File "/opt/render/project/src/.venv/lib/python3.13/site-packages/aiogram/dispatcher/router.py", line 137, in _wrapped
     return await self._propagate_event(
            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\״ûםדûס\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiogram\dispatcher\router.py", line 162, in _propagate_event
+        observer=observer, update_type=update_type, event=telegram_event, **data
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/opt/render/project/src/.venv/lib/python3.13/site-packages/aiogram/dispatcher/router.py", line 162, in _propagate_event
     response = await observer.trigger(event, **kwargs)
                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\״ûםדûס\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+  File "/opt/render/project/src/.venv/lib/python3.13/site-packages/aiogram/dispatcher/event/telegram.py", line 121, in trigger
     return await wrapped_inner(event, kwargs)
            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\״ûםדûס\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+  File "/opt/render/project/src/.venv/lib/python3.13/site-packages/aiogram/dispatcher/event/handler.py", line 43, in call
     return await wrapped()
            ^^^^^^^^^^^^^^^
-  File "C:\Users\״ûםדûס\character_bot\handlers\inventory.py", line 26, in inventory_menu
-    character_data = await get_character_data(callback.from_user.id)
-                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\״ûםדûס\character_bot\utils\database.py", line 36, in get_character_data
-    all_characters = await _load_all_characters()
-                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\״ûםדûס\character_bot\utils\database.py", line 23, in _load_all_characters
-    data = json.load(f)
-           ^^^^^^^^^^^^
-  File "C:\Users\״ûםדûס\AppData\Local\Programs\Python\Python312\Lib\json\__init__.py", line 293, in load
-    return loads(fp.read(),
-           ^^^^^^^^^^^^^^^^
-  File "C:\Users\״ûםדûס\AppData\Local\Programs\Python\Python312\Lib\json\__init__.py", line 346, in loads
-    return _default_decoder.decode(s)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\״ûםדûס\AppData\Local\Programs\Python\Python312\Lib\json\decoder.py", line 337, in decode
-    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
-               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\״ûםדûס\AppData\Local\Programs\Python\Python312\Lib\json\decoder.py", line 355, in raw_decode
-    raise JSONDecodeError("Expecting value", s, err.value) from None
-json.decoder.JSONDecodeError: Expecting value: line 22 column 23 (char 576)
-2025-07-06 20:54:20,659 - aiogram.event - INFO - Update id=359547162 is not handled. Duration 31 ms by bot id=7940686992
-2025-07-06 20:54:20,659 - aiogram.event - ERROR - Cause exception while process update id=359547162 by bot id=7940686992
-JSONDecodeError: Expecting value: line 22 column 23 (char 576)
+  File "/opt/render/project/src/handlers/main_menu.py", line 63, in process_menu_battle
+    await start_combat(callback.message, state, character, enemy_id)
+  File "/opt/render/project/src/handlers/combat.py", line 59, in start_combat
+    "player_mana": character_data['current_mana'], # Added player_mana
+                   ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^
+KeyError: 'current_mana'
+ERROR:aiohttp.server:Error handling request
 Traceback (most recent call last):
-  File "C:\Users\״ûםדûס\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 309, in _process_update
-    response = await self.feed_update(bot, update, **kwargs)
-               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\״ûםדûס\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 158, in feed_update
+  File "/opt/render/project/src/.venv/lib/python3.13/site-packages/aiohttp/web_protocol.py", line 452, in _handle_request
+    resp = await request_handler(request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/render/project/src/.venv/lib/python3.13/site-packages/aiohttp/web_app.py", line 543, in _handle
+    resp = await handler(request)
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/render/project/src/bot.py", line 32, in webhook_handler
+    await dp.feed_update(bot, update)
+  File "/opt/render/project/src/.venv/lib/python3.13/site-packages/aiogram/dispatcher/dispatcher.py", line 158, in feed_update
     response = await self.update.wrap_outer_middleware(
                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\״ûםדûס\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiogram\dispatcher\middlewares\error.py", line 25, in __call__
+    ...<7 lines>...
+    )
+    ^
+  File "/opt/render/project/src/.venv/lib/python3.13/site-packages/aiogram/dispatcher/middlewares/error.py", line 25, in __call__
     return await handler(event, data)
            ^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\״ûםדûס\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiogram\dispatcher\middlewares\user_context.py", line 49, in __call__
+  File "/opt/render/project/src/.venv/lib/python3.13/site-packages/aiogram/dispatcher/middlewares/user_context.py", line 49, in __call__
     return await handler(event, data)
            ^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\״ûםדûס\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiogram\fsm\middleware.py", line 42, in __call__
+  File "/opt/render/project/src/.venv/lib/python3.13/site-packages/aiogram/fsm/middleware.py", line 42, in __call__
     return await handler(event, data)
            ^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\״ûםדûס\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+  File "/opt/render/project/src/.venv/lib/python3.13/site-packages/aiogram/dispatcher/event/telegram.py", line 121, in trigger
     return await wrapped_inner(event, kwargs)
            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\״ûםדûס\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+  File "/opt/render/project/src/.venv/lib/python3.13/site-packages/aiogram/dispatcher/event/handler.py", line 43, in call
     return await wrapped()
            ^^^^^^^^^^^^^^^
-  File "C:\Users\״ûםדûס\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 276, in _listen_update
+  File "/opt/render/project/src/.venv/lib/python3.13/site-packages/aiogram/dispatcher/dispatcher.py", line 276, in _listen_update
     return await self.propagate_event(update_type=update_type, event=event, **kwargs)
            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\״ûםדûס\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiogram\dispatcher\router.py", line 142, in propagate_event
+  File "/opt/render/project/src/.venv/lib/python3.13/site-packages/aiogram/dispatcher/router.py", line 142, in propagate_event
     return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\״ûםדûס\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiogram\dispatcher\router.py", line 137, in _wrapped
+  File "/opt/render/project/src/.venv/lib/python3.13/site-packages/aiogram/dispatcher/router.py", line 137, in _wrapped
     return await self._propagate_event(
            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\״ûםדûס\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiogram\dispatcher\router.py", line 170, in _propagate_event
+        observer=observer, update_type=update_type, event=telegram_event, **data
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/opt/render/project/src/.venv/lib/python3.13/site-packages/aiogram/dispatcher/router.py", line 170, in _propagate_event
     response = await router.propagate_event(update_type=update_type, event=event, **kwargs)
                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\״ûםדûס\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiogram\dispatcher\router.py", line 142, in propagate_event
+  File "/opt/render/project/src/.venv/lib/python3.13/site-packages/aiogram/dispatcher/router.py", line 142, in propagate_event
     return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\״ûםדûס\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiogram\dispatcher\router.py", line 137, in _wrapped
+  File "/opt/render/project/src/.venv/lib/python3.13/site-packages/aiogram/dispatcher/router.py", line 137, in _wrapped
     return await self._propagate_event(
            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\״ûםדûס\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiogram\dispatcher\router.py", line 162, in _propagate_event
+        observer=observer, update_type=update_type, event=telegram_event, **data
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/opt/render/project/src/.venv/lib/python3.13/site-packages/aiogram/dispatcher/router.py", line 162, in _propagate_event
     response = await observer.trigger(event, **kwargs)
                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\״ûםדûס\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+  File "/opt/render/project/src/.venv/lib/python3.13/site-packages/aiogram/dispatcher/event/telegram.py", line 121, in trigger
     return await wrapped_inner(event, kwargs)
            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\״ûםדûס\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+  File "/opt/render/project/src/.venv/lib/python3.13/site-packages/aiogram/dispatcher/event/handler.py", line 43, in call
     return await wrapped()
            ^^^^^^^^^^^^^^^
-  File "C:\Users\״ûםדûס\character_bot\handlers\main_menu.py", line 55, in process_menu_battle
-    character = await get_character_data(user_id)
-                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\״ûםדûס\character_bot\utils\database.py", line 36, in get_character_data
-    all_characters = await _load_all_characters()
-                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\״ûםדûס\character_bot\utils\database.py", line 23, in _load_all_characters
-    data = json.load(f)
-           ^^^^^^^^^^^^
-  File "C:\Users\״ûםדûס\AppData\Local\Programs\Python\Python312\Lib\json\__init__.py", line 293, in load
-    return loads(fp.read(),
-           ^^^^^^^^^^^^^^^^
-  File "C:\Users\״ûםדûס\AppData\Local\Programs\Python\Python312\Lib\json\__init__.py", line 346, in loads
-    return _default_decoder.decode(s)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\״ûםדûס\AppData\Local\Programs\Python\Python312\Lib\json\decoder.py", line 337, in decode
-    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
-               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\״ûםדûס\AppData\Local\Programs\Python\Python312\Lib\json\decoder.py", line 355, in raw_decode
-    raise JSONDecodeError("Expecting value", s, err.value) from None
-json.decoder.JSONDecodeError: Expecting value: line 22 column 23 (char 576)
-2025-07-06 20:54:41,326 - aiogram.event - INFO - Update id=359547163 is not handled. Duration 7186 ms by bot id=7940686992
-2025-07-06 20:54:41,481 - aiogram.event - ERROR - Cause exception while process update id=359547163 by bot id=7940686992
-JSONDecodeError: Expecting value: line 23 column 13 (char 589)
+  File "/opt/render/project/src/handlers/main_menu.py", line 63, in process_menu_battle
+    await start_combat(callback.message, state, character, enemy_id)
+  File "/opt/render/project/src/handlers/combat.py", line 59, in start_combat
+    "player_mana": character_data['current_mana'], # Added player_mana
+                   ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^
+KeyError: 'current_mana'
+ERROR:aiohttp.server:Error handling request
 Traceback (most recent call last):
-  File "C:\Users\״ûםדûס\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 309, in _process_update
-    response = await self.feed_update(bot, update, **kwargs)
-               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\״ûםדûס\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 158, in feed_update
+  File "/opt/render/project/src/.venv/lib/python3.13/site-packages/aiohttp/web_protocol.py", line 452, in _handle_request
+    resp = await request_handler(request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/render/project/src/.venv/lib/python3.13/site-packages/aiohttp/web_app.py", line 543, in _handle
+    resp = await handler(request)
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/render/project/src/bot.py", line 32, in webhook_handler
+    await dp.feed_update(bot, update)
+  File "/opt/render/project/src/.venv/lib/python3.13/site-packages/aiogram/dispatcher/dispatcher.py", line 158, in feed_update
     response = await self.update.wrap_outer_middleware(
                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\״ûםדûס\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiogram\dispatcher\middlewares\error.py", line 25, in __call__
+    ...<7 lines>...
+    )
+    ^
+  File "/opt/render/project/src/.venv/lib/python3.13/site-packages/aiogram/dispatcher/middlewares/error.py", line 25, in __call__
     return await handler(event, data)
            ^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\״ûםדûס\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiogram\dispatcher\middlewares\user_context.py", line 49, in __call__
+  File "/opt/render/project/src/.venv/lib/python3.13/site-packages/aiogram/dispatcher/middlewares/user_context.py", line 49, in __call__
     return await handler(event, data)
            ^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\״ûםדûס\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiogram\fsm\middleware.py", line 42, in __call__
+  File "/opt/render/project/src/.venv/lib/python3.13/site-packages/aiogram/fsm/middleware.py", line 42, in __call__
     return await handler(event, data)
            ^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\״ûםדûס\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+  File "/opt/render/project/src/.venv/lib/python3.13/site-packages/aiogram/dispatcher/event/telegram.py", line 121, in trigger
     return await wrapped_inner(event, kwargs)
            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\״ûםדûס\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+  File "/opt/render/project/src/.venv/lib/python3.13/site-packages/aiogram/dispatcher/event/handler.py", line 43, in call
     return await wrapped()
            ^^^^^^^^^^^^^^^
-  File "C:\Users\״ûםדûס\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 276, in _listen_update
+  File "/opt/render/project/src/.venv/lib/python3.13/site-packages/aiogram/dispatcher/dispatcher.py", line 276, in _listen_update
     return await self.propagate_event(update_type=update_type, event=event, **kwargs)
            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\״ûםדûס\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiogram\dispatcher\router.py", line 142, in propagate_event
+  File "/opt/render/project/src/.venv/lib/python3.13/site-packages/aiogram/dispatcher/router.py", line 142, in propagate_event
     return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\״ûםדûס\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiogram\dispatcher\router.py", line 137, in _wrapped
+  File "/opt/render/project/src/.venv/lib/python3.13/site-packages/aiogram/dispatcher/router.py", line 137, in _wrapped
     return await self._propagate_event(
            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\״ûםדûס\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiogram\dispatcher\router.py", line 170, in _propagate_event
+        observer=observer, update_type=update_type, event=telegram_event, **data
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/opt/render/project/src/.venv/lib/python3.13/site-packages/aiogram/dispatcher/router.py", line 170, in _propagate_event
     response = await router.propagate_event(update_type=update_type, event=event, **kwargs)
                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\״ûםדûס\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiogram\dispatcher\router.py", line 142, in propagate_event
+  File "/opt/render/project/src/.venv/lib/python3.13/site-packages/aiogram/dispatcher/router.py", line 142, in propagate_event
     return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\״ûםדûס\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiogram\dispatcher\router.py", line 137, in _wrapped
+  File "/opt/render/project/src/.venv/lib/python3.13/site-packages/aiogram/dispatcher/router.py", line 137, in _wrapped
     return await self._propagate_event(
            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\״ûםדûס\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiogram\dispatcher\router.py", line 162, in _propagate_event
+        observer=observer, update_type=update_type, event=telegram_event, **data
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/opt/render/project/src/.venv/lib/python3.13/site-packages/aiogram/dispatcher/router.py", line 162, in _propagate_event
     response = await observer.trigger(event, **kwargs)
                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\״ûםדûס\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+  File "/opt/render/project/src/.venv/lib/python3.13/site-packages/aiogram/dispatcher/event/telegram.py", line 121, in trigger
     return await wrapped_inner(event, kwargs)
            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\״ûםדûס\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+  File "/opt/render/project/src/.venv/lib/python3.13/site-packages/aiogram/dispatcher/event/handler.py", line 43, in call
     return await wrapped()
            ^^^^^^^^^^^^^^^
-  File "C:\Users\״ûםדûס\character_bot\handlers\main_menu.py", line 50, in process_menu_profile
-    await show_profile(callback, state)
-  File "C:\Users\״ûםדûס\character_bot\handlers\profile.py", line 29, in show_profile
-    character = await get_character_data(user_id)
-                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\״ûםדûס\character_bot\utils\database.py", line 36, in get_character_data
-    all_characters = await _load_all_characters()
-                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\״ûםדûס\character_bot\utils\database.py", line 23, in _load_all_characters
-    data = json.load(f)
-           ^^^^^^^^^^^^
-  File "C:\Users\״ûםדûס\AppData\Local\Programs\Python\Python312\Lib\json\__init__.py", line 293, in load
-    return loads(fp.read(),
-           ^^^^^^^^^^^^^^^^
-  File "C:\Users\״ûםדûס\AppData\Local\Programs\Python\Python312\Lib\json\__init__.py", line 346, in loads
-    return _default_decoder.decode(s)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\״ûםדûס\AppData\Local\Programs\Python\Python312\Lib\json\decoder.py", line 337, in decode
-    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
-               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\״ûםדûס\AppData\Local\Programs\Python\Python312\Lib\json\decoder.py", line 355, in raw_decode
-    raise JSONDecodeError("Expecting value", s, err.value) from None
-json.decoder.JSONDecodeError: Expecting value: line 23 column 13 (char 589)
-2025-07-06 20:54:43,511 - aiogram.event - INFO - Update id=359547165 is not handled. Duration 30 ms by bot id=7940686992
-2025-07-06 20:54:43,862 - aiogram.event - INFO - Update id=359547167 is not handled. Duration 390 ms by bot id=7940686992
-2025-07-06 20:54:54,296 - aiogram.event - INFO - Update id=359547164 is not handled. Duration 12811 ms by bot id=7940686992
-2025-07-06 20:54:54,363 - aiogram.event - INFO - Update id=359547169 is handled. Duration 10890 ms by bot id=7940686992
-2025-07-06 20:54:54,367 - aiogram.event - INFO - Update id=359547168 is not handled. Duration 10890 ms by bot id=7940686992
-2025-07-06 20:54:54,399 - aiogram.event - INFO - Update id=359547170 is handled. Duration 10780 ms by bot id=7940686992
-2025-07-06 20:54:54,525 - aiogram.event - INFO - Update id=359547172 is not handled. Duration 0 ms by bot id=7940686992
-2025-07-06 20:54:54,836 - aiogram.event - INFO - Update id=359547166 is not handled. Duration 11358 ms by bot id=7940686992
-2025-07-06 20:54:54,837 - aiogram.event - ERROR - Cause exception while process update id=359547166 by bot id=7940686992
-TelegramBadRequest: Telegram server says - Bad Request: query is too old and response timeout expired or query ID is invalid
-Traceback (most recent call last):
-  File "C:\Users\״ûםדûס\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 309, in _process_update
-    response = await self.feed_update(bot, update, **kwargs)
-               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\״ûםדûס\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 158, in feed_update
-    response = await self.update.wrap_outer_middleware(
-               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\״ûםדûס\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiogram\dispatcher\middlewares\error.py", line 25, in __call__
-    return await handler(event, data)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\״ûםדûס\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiogram\dispatcher\middlewares\user_context.py", line 49, in __call__
-    return await handler(event, data)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\״ûםדûס\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiogram\fsm\middleware.py", line 42, in __call__
-    return await handler(event, data)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\״ûםדûס\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
-    return await wrapped_inner(event, kwargs)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\״ûםדûס\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
-    return await wrapped()
-           ^^^^^^^^^^^^^^^
-  File "C:\Users\״ûםדûס\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 276, in _listen_update
-    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\״ûםדûס\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiogram\dispatcher\router.py", line 142, in propagate_event
-    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\״ûםדûס\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiogram\dispatcher\router.py", line 137, in _wrapped
-    return await self._propagate_event(
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\״ûםדûס\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiogram\dispatcher\router.py", line 170, in _propagate_event
-    response = await router.propagate_event(update_type=update_type, event=event, **kwargs)
-               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\״ûםדûס\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiogram\dispatcher\router.py", line 142, in propagate_event
-    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\״ûםדûס\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiogram\dispatcher\router.py", line 137, in _wrapped
-    return await self._propagate_event(
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\״ûםדûס\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiogram\dispatcher\router.py", line 162, in _propagate_event
-    response = await observer.trigger(event, **kwargs)
-               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\״ûםדûס\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
-    return await wrapped_inner(event, kwargs)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\״ûםדûס\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
-    return await wrapped()
-           ^^^^^^^^^^^^^^^
-  File "C:\Users\״ûםדûס\character_bot\handlers\main_menu.py", line 50, in process_menu_profile
-    await show_profile(callback, state)
-  File "C:\Users\״ûםדûס\character_bot\handlers\profile.py", line 75, in show_profile
-    await callback.answer()
-  File "C:\Users\״ûםדûס\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiogram\methods\base.py", line 84, in emit
+  File "/opt/render/project/src/handlers/main_menu.py", line 62, in process_menu_battle
+    await callback.message.edit_text(f"ג”ן¸ ׀׀°ׁ‡׀¸׀½׀°׀µׁ‚ׁׁ ׀±׀¾׀¹ ׁ {ENEMIES_DATA[enemy_id]['name']}!", reply_markup=None)
+  File "/opt/render/project/src/.venv/lib/python3.13/site-packages/aiogram/methods/base.py", line 84, in emit
     return await bot(self)
            ^^^^^^^^^^^^^^^
-  File "C:\Users\״ûםדûס\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiogram\client\bot.py", line 485, in __call__
+  File "/opt/render/project/src/.venv/lib/python3.13/site-packages/aiogram/client/bot.py", line 485, in __call__
     return await self.session(self, method, timeout=request_timeout)
            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\״ûםדûס\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiogram\client\session\base.py", line 254, in __call__
+  File "/opt/render/project/src/.venv/lib/python3.13/site-packages/aiogram/client/session/base.py", line 254, in __call__
     return cast(TelegramType, await middleware(bot, method))
                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\״ûםדûס\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiogram\client\session\aiohttp.py", line 189, in make_request
+  File "/opt/render/project/src/.venv/lib/python3.13/site-packages/aiogram/client/session/aiohttp.py", line 189, in make_request
     response = self.check_response(
-               ^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\״ûםדûס\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiogram\client\session\base.py", line 120, in check_response
+        bot=bot, method=method, status_code=resp.status, content=raw_result
+    )
+  File "/opt/render/project/src/.venv/lib/python3.13/site-packages/aiogram/client/session/base.py", line 120, in check_response
     raise TelegramBadRequest(method=method, message=description)
-aiogram.exceptions.TelegramBadRequest: Telegram server says - Bad Request: query is too old and response timeout expired or query ID is invalid
-2025-07-06 20:54:55,002 - aiogram.event - INFO - Update id=359547171 is handled. Duration 609 ms by bot id=7940686992
-2025-07-06 20:54:56,975 - aiogram.event - INFO - Update id=359547173 is not handled. Duration 0 ms by bot id=7940686992
-2025-07-06 20:54:57,612 - aiogram.event - INFO - Update id=359547174 is not handled. Duration 0 ms by bot id=7940686992
-2025-07-06 20:55:05,764 - aiogram.event - INFO - Update id=359547175 is handled. Duration 203 ms by bot id=7940686992
-2025-07-06 20:55:08,186 - aiogram.event - INFO - Update id=359547176 is handled. Duration 437 ms by bot id=7940686992
-2025-07-06 20:55:10,260 - root - INFO - Combat: Ability button pressed by user 8092842581
-2025-07-06 20:55:10,559 - aiogram.event - INFO - Update id=359547177 is handled. Duration 312 ms by bot id=7940686992
-2025-07-06 20:55:11,357 - root - INFO - Combat: Use ability button pressed by user 8092842581
-2025-07-06 20:55:11,635 - aiogram.event - INFO - Update id=359547178 is handled. Duration 280 ms by bot id=7940686992
-2025-07-06 20:55:12,667 - root - INFO - Combat: Ability button pressed by user 8092842581
-2025-07-06 20:55:12,930 - aiogram.event - INFO - Update id=359547179 is handled. Duration 264 ms by bot id=7940686992
-2025-07-06 20:55:13,783 - root - INFO - Combat: Use ability button pressed by user 8092842581
-2025-07-06 20:55:14,053 - aiogram.event - INFO - Update id=359547180 is handled. Duration 280 ms by bot id=7940686992
-2025-07-06 20:55:15,056 - root - INFO - Combat: Ability button pressed by user 8092842581
-2025-07-06 20:55:15,371 - aiogram.event - INFO - Update id=359547181 is handled. Duration 328 ms by bot id=7940686992
-2025-07-06 20:55:16,278 - root - INFO - Combat: Use ability button pressed by user 8092842581
-2025-07-06 20:55:16,591 - aiogram.event - INFO - Update id=359547182 is handled. Duration 328 ms by bot id=7940686992
-2025-07-06 20:55:17,590 - root - INFO - Combat: Ability button pressed by user 8092842581
-2025-07-06 20:55:17,915 - aiogram.event - INFO - Update id=359547183 is handled. Duration 329 ms by bot id=7940686992
-2025-07-06 20:55:18,718 - root - INFO - Combat: Use ability button pressed by user 8092842581
-2025-07-06 20:55:19,139 - aiogram.event - INFO - Update id=359547184 is handled. Duration 438 ms by bot id=7940686992
-2025-07-06 20:55:20,132 - root - INFO - Combat: Ability button pressed by user 8092842581
-2025-07-06 20:55:20,522 - aiogram.event - INFO - Update id=359547185 is handled. Duration 390 ms by bot id=7940686992
-2025-07-06 20:55:21,400 - root - INFO - Combat: Use ability button pressed by user 8092842581
-2025-07-06 20:55:21,906 - aiogram.event - INFO - Update id=359547186 is handled. Duration 515 ms by bot id=7940686992
-2025-07-06 20:55:24,787 - aiogram.event - INFO - Update id=359547187 is handled. Duration 500 ms by bot id=7940686992
-2025-07-06 20:55:27,316 - root - INFO - Combat: Ability button pressed by user 8092842581
-2025-07-06 20:55:27,715 - aiogram.event - INFO - Update id=359547188 is handled. Duration 422 ms by bot id=7940686992
-2025-07-06 20:55:28,578 - root - INFO - Combat: Use ability button pressed by user 8092842581
-2025-07-06 20:55:28,859 - aiogram.event - INFO - Update id=359547189 is handled. Duration 297 ms by bot id=7940686992
-2025-07-06 20:55:30,107 - root - INFO - Combat: Ability button pressed by user 8092842581
-2025-07-06 20:55:30,398 - aiogram.event - INFO - Update id=359547190 is handled. Duration 296 ms by bot id=7940686992
-2025-07-06 20:55:31,289 - root - INFO - Combat: Use ability button pressed by user 8092842581
-2025-07-06 20:55:31,597 - aiogram.event - INFO - Update id=359547191 is handled. Duration 312 ms by bot id=7940686992
-2025-07-06 20:55:32,895 - root - INFO - Combat: Ability button pressed by user 8092842581
-2025-07-06 20:55:33,166 - aiogram.event - INFO - Update id=359547192 is handled. Duration 281 ms by bot id=7940686992
-2025-07-06 20:55:34,064 - root - INFO - Combat: Use ability button pressed by user 8092842581
-2025-07-06 20:55:34,351 - aiogram.event - INFO - Update id=359547193 is handled. Duration 297 ms by bot id=7940686992
-2025-07-06 20:55:36,964 - aiogram.event - INFO - Update id=359547194 is handled. Duration 655 ms by bot id=7940686992
-2025-07-06 20:55:38,887 - root - INFO - Combat: Ability button pressed by user 8092842581
-2025-07-06 20:55:39,180 - aiogram.event - INFO - Update id=359547195 is handled. Duration 296 ms by bot id=7940686992
-2025-07-06 20:55:40,162 - root - INFO - Combat: Use ability button pressed by user 8092842581
-2025-07-06 20:55:40,460 - aiogram.event - INFO - Update id=359547196 is handled. Duration 311 ms by bot id=7940686992
-2025-07-06 20:55:41,515 - root - INFO - Combat: Ability button pressed by user 8092842581
-2025-07-06 20:55:41,642 - aiogram.event - INFO - Update id=359547197 is not handled. Duration 140 ms by bot id=7940686992
-2025-07-06 20:55:41,642 - aiogram.event - ERROR - Cause exception while process update id=359547197 by bot id=7940686992
-TelegramRetryAfter: Telegram server says - Flood control exceeded on method 'EditMessageText' in chat -1002549350814. Retry in 26 seconds.
-Original description: Too Many Requests: retry after 26
-(background on this error at: https://core.telegram.org/bots/faq#my-bot-is-hitting-limits-how-do-i-avoid-this)
+aiogram.exceptions.TelegramBadRequest: Telegram server says - Bad Request: message is not modified: specified new message content and reply markup are exactly the same as a current content and reply markup of the message
+ERROR:aiohttp.server:Error handling request
 Traceback (most recent call last):
-  File "C:\Users\״ûםדûס\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 309, in _process_update
-    response = await self.feed_update(bot, update, **kwargs)
-               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\״ûםדûס\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 158, in feed_update
+  File "/opt/render/project/src/.venv/lib/python3.13/site-packages/aiohttp/web_protocol.py", line 452, in _handle_request
+    resp = await request_handler(request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/render/project/src/.venv/lib/python3.13/site-packages/aiohttp/web_app.py", line 543, in _handle
+    resp = await handler(request)
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/render/project/src/bot.py", line 32, in webhook_handler
+    await dp.feed_update(bot, update)
+  File "/opt/render/project/src/.venv/lib/python3.13/site-packages/aiogram/dispatcher/dispatcher.py", line 158, in feed_update
     response = await self.update.wrap_outer_middleware(
                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\״ûםדûס\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiogram\dispatcher\middlewares\error.py", line 25, in __call__
+    ...<7 lines>...
+    )
+    ^
+  File "/opt/render/project/src/.venv/lib/python3.13/site-packages/aiogram/dispatcher/middlewares/error.py", line 25, in __call__
     return await handler(event, data)
            ^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\״ûםדûס\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiogram\dispatcher\middlewares\user_context.py", line 49, in __call__
+  File "/opt/render/project/src/.venv/lib/python3.13/site-packages/aiogram/dispatcher/middlewares/user_context.py", line 49, in __call__
     return await handler(event, data)
            ^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\״ûםדûס\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiogram\fsm\middleware.py", line 42, in __call__
+  File "/opt/render/project/src/.venv/lib/python3.13/site-packages/aiogram/fsm/middleware.py", line 42, in __call__
     return await handler(event, data)
            ^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\״ûםדûס\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+  File "/opt/render/project/src/.venv/lib/python3.13/site-packages/aiogram/dispatcher/event/telegram.py", line 121, in trigger
     return await wrapped_inner(event, kwargs)
            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\״ûםדûס\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+  File "/opt/render/project/src/.venv/lib/python3.13/site-packages/aiogram/dispatcher/event/handler.py", line 43, in call
     return await wrapped()
            ^^^^^^^^^^^^^^^
-  File "C:\Users\״ûםדûס\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 276, in _listen_update
+  File "/opt/render/project/src/.venv/lib/python3.13/site-packages/aiogram/dispatcher/dispatcher.py", line 276, in _listen_update
     return await self.propagate_event(update_type=update_type, event=event, **kwargs)
            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\״ûםדûס\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiogram\dispatcher\router.py", line 142, in propagate_event
+  File "/opt/render/project/src/.venv/lib/python3.13/site-packages/aiogram/dispatcher/router.py", line 142, in propagate_event
     return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\״ûםדûס\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiogram\dispatcher\router.py", line 137, in _wrapped
+  File "/opt/render/project/src/.venv/lib/python3.13/site-packages/aiogram/dispatcher/router.py", line 137, in _wrapped
     return await self._propagate_event(
            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\״ûםדûס\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiogram\dispatcher\router.py", line 170, in _propagate_event
+        observer=observer, update_type=update_type, event=telegram_event, **data
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/opt/render/project/src/.venv/lib/python3.13/site-packages/aiogram/dispatcher/router.py", line 170, in _propagate_event
     response = await router.propagate_event(update_type=update_type, event=event, **kwargs)
                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\״ûםדûס\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiogram\dispatcher\router.py", line 142, in propagate_event
+  File "/opt/render/project/src/.venv/lib/python3.13/site-packages/aiogram/dispatcher/router.py", line 142, in propagate_event
     return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\״ûםדûס\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiogram\dispatcher\router.py", line 137, in _wrapped
+  File "/opt/render/project/src/.venv/lib/python3.13/site-packages/aiogram/dispatcher/router.py", line 137, in _wrapped
     return await self._propagate_event(
            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\״ûםדûס\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiogram\dispatcher\router.py", line 162, in _propagate_event
+        observer=observer, update_type=update_type, event=telegram_event, **data
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/opt/render/project/src/.venv/lib/python3.13/site-packages/aiogram/dispatcher/router.py", line 162, in _propagate_event
     response = await observer.trigger(event, **kwargs)
                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\״ûםדûס\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+  File "/opt/render/project/src/.venv/lib/python3.13/site-packages/aiogram/dispatcher/event/telegram.py", line 121, in trigger
     return await wrapped_inner(event, kwargs)
            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\״ûםדûס\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+  File "/opt/render/project/src/.venv/lib/python3.13/site-packages/aiogram/dispatcher/event/handler.py", line 43, in call
     return await wrapped()
            ^^^^^^^^^^^^^^^
-  File "C:\Users\״ûםדûס\character_bot\handlers\combat.py", line 427, in select_ability
-    await callback.message.edit_text(
-  File "C:\Users\״ûםדûס\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiogram\methods\base.py", line 84, in emit
-    return await bot(self)
-           ^^^^^^^^^^^^^^^
-  File "C:\Users\״ûםדûס\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiogram\client\bot.py", line 485, in __call__
-    return await self.session(self, method, timeout=request_timeout)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\״ûםדûס\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiogram\client\session\base.py", line 254, in __call__
-    return cast(TelegramType, await middleware(bot, method))
-                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\״ûםדûס\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiogram\client\session\aiohttp.py", line 189, in make_request
-    response = self.check_response(
-               ^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\״ûםדûס\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiogram\client\session\base.py", line 110, in check_response
-    raise TelegramRetryAfter(
-aiogram.exceptions.TelegramRetryAfter: Telegram server says - Flood control exceeded on method 'EditMessageText' in chat -1002549350814. Retry in 26 seconds.
-Original description: Too Many Requests: retry after 26
-(background on this error at: https://core.telegram.org/bots/faq#my-bot-is-hitting-limits-how-do-i-avoid-this)
-2025-07-06 20:55:45,066 - aiogram.event - INFO - Update id=359547198 is not handled. Duration 15 ms by bot id=7940686992
-2025-07-06 20:55:50,155 - aiogram.event - INFO - Update id=359547199 is not handled. Duration 15 ms by bot id=7940686992
-2025-07-06 20:56:09,662 - aiogram.event - INFO - Update id=359547200 is not handled. Duration 15 ms by bot id=7940686992
-2025-07-06 20:57:01,765 - aiogram.event - INFO - Update id=359547201 is not handled. Duration 15 ms by bot id=7940686992
-2025-07-06 20:57:03,505 - aiogram.event - INFO - Update id=359547202 is not handled. Duration 14 ms by bot id=7940686992
-2025-07-06 20:57:04,150 - aiogram.event - INFO - Update id=359547203 is not handled. Duration 15 ms by bot id=7940686992
-2025-07-06 20:57:04,379 - aiogram.event - INFO - Update id=359547204 is not handled. Duration 14 ms by bot id=7940686992
-2025-07-06 20:57:04,938 - aiogram.event - INFO - Update id=359547205 is not handled. Duration 15 ms by bot id=7940686992
-2025-07-06 20:57:07,241 - aiogram.event - INFO - Update id=359547206 is not handled. Duration 15 ms by bot id=7940686992
-2025-07-06 20:57:08,089 - aiogram.event - INFO - Update id=359547207 is not handled. Duration 0 ms by bot id=7940686992
-2025-07-06 20:57:09,167 - aiogram.event - INFO - Update id=359547208 is handled. Duration 360 ms by bot id=7940686992
-2025-07-06 20:57:10,776 - aiogram.event - INFO - Update id=359547209 is handled. Duration 500 ms by bot id=7940686992
-2025-07-06 20:57:11,982 - root - INFO - Combat: Ability button pressed by user 8092842581
-2025-07-06 20:57:12,391 - aiogram.event - INFO - Update id=359547210 is handled. Duration 421 ms by bot id=7940686992
-2025-07-06 20:57:13,130 - root - INFO - Combat: Use ability button pressed by user 8092842581
-2025-07-06 20:57:13,417 - aiogram.event - INFO - Update id=359547211 is handled. Duration 296 ms by bot id=7940686992
-2025-07-06 20:57:14,313 - root - INFO - Combat: Ability button pressed by user 8092842581
-2025-07-06 20:57:14,604 - aiogram.event - INFO - Update id=359547212 is handled. Duration 297 ms by bot id=7940686992
-2025-07-06 20:57:15,194 - root - INFO - Combat: Use ability button pressed by user 8092842581
-2025-07-06 20:57:15,456 - aiogram.event - INFO - Update id=359547213 is handled. Duration 280 ms by bot id=7940686992
-2025-07-06 20:57:16,297 - root - INFO - Combat: Ability button pressed by user 8092842581
-2025-07-06 20:57:16,591 - aiogram.event - INFO - Update id=359547214 is handled. Duration 312 ms by bot id=7940686992
-2025-07-06 20:57:17,669 - root - INFO - Combat: Use ability button pressed by user 8092842581
-2025-07-06 20:57:17,955 - aiogram.event - INFO - Update id=359547215 is handled. Duration 295 ms by bot id=7940686992
-2025-07-06 20:57:20,745 - root - INFO - Combat: Ability button pressed by user 8092842581
-2025-07-06 20:57:20,869 - root - INFO - Combat: Attack button pressed by user 2139448887
-2025-07-06 20:57:21,002 - aiogram.event - INFO - Update id=359547216 is handled. Duration 264 ms by bot id=7940686992
-2025-07-06 20:57:21,409 - aiogram.event - INFO - Update id=359547217 is handled. Duration 546 ms by bot id=7940686992
-2025-07-06 20:57:21,713 - root - INFO - Combat: Use ability button pressed by user 8092842581
-2025-07-06 20:57:22,005 - aiogram.event - INFO - Update id=359547218 is handled. Duration 297 ms by bot id=7940686992
-2025-07-06 20:57:22,239 - root - INFO - Combat: Attack button pressed by user 2139448887
-2025-07-06 20:57:22,543 - aiogram.event - INFO - Update id=359547219 is handled. Duration 311 ms by bot id=7940686992
-2025-07-06 20:57:23,046 - root - INFO - Combat: Ability button pressed by user 8092842581
-2025-07-06 20:57:23,329 - root - INFO - Combat: Attack button pressed by user 2139448887
-2025-07-06 20:57:23,419 - aiogram.event - INFO - Update id=359547220 is handled. Duration 389 ms by bot id=7940686992
-2025-07-06 20:57:23,642 - aiogram.event - INFO - Update id=359547221 is handled. Duration 328 ms by bot id=7940686992
-2025-07-06 20:57:24,026 - root - INFO - Combat: Use ability button pressed by user 8092842581
-2025-07-06 20:57:24,365 - aiogram.event - INFO - Update id=359547222 is handled. Duration 344 ms by bot id=7940686992
-2025-07-06 20:57:24,407 - root - INFO - Combat: Attack button pressed by user 2139448887
-2025-07-06 20:57:24,734 - aiogram.event - INFO - Update id=359547223 is handled. Duration 390 ms by bot id=7940686992
-2025-07-06 20:57:25,348 - root - INFO - Combat: Attack button pressed by user 2139448887
-2025-07-06 20:57:25,597 - aiogram.event - INFO - Update id=359547224 is handled. Duration 266 ms by bot id=7940686992
-2025-07-06 20:57:26,901 - aiogram.event - INFO - Update id=359547225 is handled. Duration 390 ms by bot id=7940686992
-2025-07-06 20:57:28,432 - root - INFO - Combat: Ability button pressed by user 8092842581
-2025-07-06 20:57:28,908 - aiogram.event - INFO - Update id=359547226 is handled. Duration 485 ms by bot id=7940686992
-2025-07-06 20:57:29,555 - root - INFO - Combat: Use ability button pressed by user 8092842581
-2025-07-06 20:57:29,853 - aiogram.event - INFO - Update id=359547227 is handled. Duration 297 ms by bot id=7940686992
-2025-07-06 20:57:30,335 - root - INFO - Combat: Attack button pressed by user 2139448887
-2025-07-06 20:57:30,598 - root - INFO - Combat: Ability button pressed by user 8092842581
-2025-07-06 20:57:30,627 - aiogram.event - INFO - Update id=359547228 is handled. Duration 312 ms by bot id=7940686992
-2025-07-06 20:57:30,921 - aiogram.event - INFO - Update id=359547229 is handled. Duration 344 ms by bot id=7940686992
-2025-07-06 20:57:31,798 - root - INFO - Combat: Use ability button pressed by user 8092842581
-2025-07-06 20:57:32,090 - aiogram.event - INFO - Update id=359547230 is handled. Duration 312 ms by bot id=7940686992
-2025-07-06 20:57:32,820 - root - INFO - Combat: Ability button pressed by user 8092842581
-2025-07-06 20:57:33,074 - aiogram.event - INFO - Update id=359547231 is handled. Duration 264 ms by bot id=7940686992
-2025-07-06 20:57:33,676 - root - INFO - Combat: Use ability button pressed by user 8092842581
-2025-07-06 20:57:33,986 - aiogram.event - INFO - Update id=359547232 is handled. Duration 328 ms by bot id=7940686992
-2025-07-06 20:57:34,730 - root - INFO - Combat: Ability button pressed by user 8092842581
-2025-07-06 20:57:35,226 - aiogram.event - INFO - Update id=359547233 is handled. Duration 500 ms by bot id=7940686992
-2025-07-06 20:57:36,024 - root - INFO - Combat: Use ability button pressed by user 8092842581
-2025-07-06 20:57:36,345 - aiogram.event - INFO - Update id=359547234 is handled. Duration 344 ms by bot id=7940686992
-2025-07-06 20:57:37,220 - root - INFO - Combat: Ability button pressed by user 8092842581
-2025-07-06 20:57:37,471 - aiogram.event - INFO - Update id=359547235 is handled. Duration 266 ms by bot id=7940686992
-2025-07-06 20:57:38,055 - root - INFO - Combat: Use ability button pressed by user 8092842581
-2025-07-06 20:57:38,303 - root - ERROR - Error in end_combat_victory: Telegram server says - Flood control exceeded on method 'EditMessageText' in chat -1002549350814. Retry in 33 seconds.
-Original description: Too Many Requests: retry after 33
-(background on this error at: https://core.telegram.org/bots/faq#my-bot-is-hitting-limits-how-do-i-avoid-this)
-2025-07-06 20:57:38,438 - root - ERROR - Error in process_combat_turn: Telegram server says - Flood control exceeded on method 'EditMessageText' in chat -1002549350814. Retry in 33 seconds.
-Original description: Too Many Requests: retry after 33
-(background on this error at: https://core.telegram.org/bots/faq#my-bot-is-hitting-limits-how-do-i-avoid-this)
-2025-07-06 20:57:38,560 - aiogram.event - INFO - Update id=359547236 is not handled. Duration 515 ms by bot id=7940686992
-2025-07-06 20:57:38,561 - aiogram.event - ERROR - Cause exception while process update id=359547236 by bot id=7940686992
-TelegramRetryAfter: Telegram server says - Flood control exceeded on method 'EditMessageText' in chat -1002549350814. Retry in 32 seconds.
-Original description: Too Many Requests: retry after 32
-(background on this error at: https://core.telegram.org/bots/faq#my-bot-is-hitting-limits-how-do-i-avoid-this)
-Traceback (most recent call last):
-  File "C:\Users\״ûםדûס\character_bot\handlers\combat.py", line 157, in end_combat_victory
-    await callback.message.edit_text(victory_message, reply_markup=main_menu_keyboard())
-  File "C:\Users\״ûםדûס\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiogram\methods\base.py", line 84, in emit
-    return await bot(self)
-           ^^^^^^^^^^^^^^^
-  File "C:\Users\״ûםדûס\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiogram\client\bot.py", line 485, in __call__
-    return await self.session(self, method, timeout=request_timeout)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\״ûםדûס\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiogram\client\session\base.py", line 254, in __call__
-    return cast(TelegramType, await middleware(bot, method))
-                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\״ûםדûס\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiogram\client\session\aiohttp.py", line 189, in make_request
-    response = self.check_response(
-               ^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\״ûםדûס\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiogram\client\session\base.py", line 110, in check_response
-    raise TelegramRetryAfter(
-aiogram.exceptions.TelegramRetryAfter: Telegram server says - Flood control exceeded on method 'EditMessageText' in chat -1002549350814. Retry in 33 seconds.
-Original description: Too Many Requests: retry after 33
-(background on this error at: https://core.telegram.org/bots/faq#my-bot-is-hitting-limits-how-do-i-avoid-this)
-
-During handling of the above exception, another exception occurred:
-
-Traceback (most recent call last):
-  File "C:\Users\״ûםדûס\character_bot\handlers\combat.py", line 239, in process_combat_turn
-    await end_combat_victory(callback, state, character, enemy)
-  File "C:\Users\״ûםדûס\character_bot\handlers\combat.py", line 161, in end_combat_victory
-    await callback.message.edit_text(
-  File "C:\Users\״ûםדûס\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiogram\methods\base.py", line 84, in emit
-    return await bot(self)
-           ^^^^^^^^^^^^^^^
-  File "C:\Users\״ûםדûס\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiogram\client\bot.py", line 485, in __call__
-    return await self.session(self, method, timeout=request_timeout)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\״ûםדûס\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiogram\client\session\base.py", line 254, in __call__
-    return cast(TelegramType, await middleware(bot, method))
-                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\״ûםדûס\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiogram\client\session\aiohttp.py", line 189, in make_request
-    response = self.check_response(
-               ^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\״ûםדûס\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiogram\client\session\base.py", line 110, in check_response
-    raise TelegramRetryAfter(
-aiogram.exceptions.TelegramRetryAfter: Telegram server says - Flood control exceeded on method 'EditMessageText' in chat -1002549350814. Retry in 33 seconds.
-Original description: Too Many Requests: retry after 33
-(background on this error at: https://core.telegram.org/bots/faq#my-bot-is-hitting-limits-how-do-i-avoid-this)
-
-During handling of the above exception, another exception occurred:
-
-Traceback (most recent call last):
-  File "C:\Users\״ûםדûס\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 309, in _process_update
-    response = await self.feed_update(bot, update, **kwargs)
-               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\״ûםדûס\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 158, in feed_update
-    response = await self.update.wrap_outer_middleware(
-               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\״ûםדûס\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiogram\dispatcher\middlewares\error.py", line 25, in __call__
-    return await handler(event, data)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\״ûםדûס\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiogram\dispatcher\middlewares\user_context.py", line 49, in __call__
-    return await handler(event, data)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\״ûםדûס\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiogram\fsm\middleware.py", line 42, in __call__
-    return await handler(event, data)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\״ûםדûס\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
-    return await wrapped_inner(event, kwargs)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\״ûםדûס\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
-    return await wrapped()
-           ^^^^^^^^^^^^^^^
-  File "C:\Users\״ûםדûס\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 276, in _listen_update
-    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\״ûםדûס\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiogram\dispatcher\router.py", line 142, in propagate_event
-    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\״ûםדûס\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiogram\dispatcher\router.py", line 137, in _wrapped
-    return await self._propagate_event(
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\״ûםדûס\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiogram\dispatcher\router.py", line 170, in _propagate_event
-    response = await router.propagate_event(update_type=update_type, event=event, **kwargs)
-               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\״ûםדûס\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiogram\dispatcher\router.py", line 142, in propagate_event
-    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\״ûםדûס\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiogram\dispatcher\router.py", line 137, in _wrapped
-    return await self._propagate_event(
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\״ûםדûס\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiogram\dispatcher\router.py", line 162, in _propagate_event
-    response = await observer.trigger(event, **kwargs)
-               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\״ûםדûס\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
-    return await wrapped_inner(event, kwargs)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\״ûםדûס\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
-    return await wrapped()
-           ^^^^^^^^^^^^^^^
-  File "C:\Users\״ûםדûס\character_bot\handlers\combat.py", line 441, in use_ability
-    turn_log, status_message = await process_combat_turn(
-                               ^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\״ûםדûס\character_bot\handlers\combat.py", line 260, in process_combat_turn
-    await callback.message.edit_text("ֿנמטחמרכא מרטבךא ג במ‏.", reply_markup=main_menu_keyboard())
-  File "C:\Users\״ûםדûס\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiogram\methods\base.py", line 84, in emit
-    return await bot(self)
-           ^^^^^^^^^^^^^^^
-  File "C:\Users\״ûםדûס\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiogram\client\bot.py", line 485, in __call__
-    return await self.session(self, method, timeout=request_timeout)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\״ûםדûס\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiogram\client\session\base.py", line 254, in __call__
-    return cast(TelegramType, await middleware(bot, method))
-                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\״ûםדûס\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiogram\client\session\aiohttp.py", line 189, in make_request
-    response = self.check_response(
-               ^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\״ûםדûס\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiogram\client\session\base.py", line 110, in check_response
-    raise TelegramRetryAfter(
-aiogram.exceptions.TelegramRetryAfter: Telegram server says - Flood control exceeded on method 'EditMessageText' in chat -1002549350814. Retry in 32 seconds.
-Original description: Too Many Requests: retry after 32
-(background on this error at: https://core.telegram.org/bots/faq#my-bot-is-hitting-limits-how-do-i-avoid-this)
-2025-07-06 20:57:39,841 - aiogram.event - INFO - Update id=359547237 is not handled. Duration 16 ms by bot id=7940686992
-2025-07-06 20:57:40,908 - aiogram.event - INFO - Update id=359547238 is not handled. Duration 15 ms by bot id=7940686992
-2025-07-06 20:57:41,073 - aiogram.event - INFO - Update id=359547239 is not handled. Duration 15 ms by bot id=7940686992
-2025-07-06 20:57:44,446 - aiogram.event - INFO - Update id=359547240 is not handled. Duration 15 ms by bot id=7940686992
-2025-07-06 20:57:44,982 - aiogram.event - INFO - Update id=359547241 is not handled. Duration 15 ms by bot id=7940686992
-2025-07-06 20:57:48,571 - aiogram.event - INFO - Update id=359547242 is handled. Duration 405 ms by bot id=7940686992
-2025-07-06 20:57:49,625 - root - INFO - Combat: Attack button pressed by user 2139448887
-2025-07-06 20:57:49,887 - aiogram.event - INFO - Update id=359547243 is handled. Duration 280 ms by bot id=7940686992
-2025-07-06 20:57:50,629 - root - INFO - Combat: Attack button pressed by user 2139448887
-2025-07-06 20:57:50,876 - aiogram.event - INFO - Update id=359547244 is handled. Duration 264 ms by bot id=7940686992
-2025-07-06 20:57:51,347 - aiogram.event - INFO - Update id=359547245 is not handled. Duration 0 ms by bot id=7940686992
-2025-07-06 20:57:51,610 - root - INFO - Combat: Attack button pressed by user 2139448887
-2025-07-06 20:57:51,878 - aiogram.event - INFO - Update id=359547246 is handled. Duration 280 ms by bot id=7940686992
-2025-07-06 20:57:54,129 - aiogram.event - INFO - Update id=359547247 is handled. Duration 297 ms by bot id=7940686992
-2025-07-06 20:57:54,428 - aiogram.event - INFO - Update id=359547248 is handled. Duration 405 ms by bot id=7940686992
-2025-07-06 20:57:55,832 - aiogram.event - INFO - Update id=359547249 is not handled. Duration 280 ms by bot id=7940686992
-2025-07-06 20:57:55,832 - aiogram.event - ERROR - Cause exception while process update id=359547249 by bot id=7940686992
-TelegramRetryAfter: Telegram server says - Flood control exceeded on method 'SendMessage' in chat -1002549350814. Retry in 15 seconds.
-Original description: Too Many Requests: retry after 15
-(background on this error at: https://core.telegram.org/bots/faq#my-bot-is-hitting-limits-how-do-i-avoid-this)
-Traceback (most recent call last):
-  File "C:\Users\״ûםדûס\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 309, in _process_update
-    response = await self.feed_update(bot, update, **kwargs)
-               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\״ûםדûס\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 158, in feed_update
-    response = await self.update.wrap_outer_middleware(
-               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\״ûםדûס\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiogram\dispatcher\middlewares\error.py", line 25, in __call__
-    return await handler(event, data)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\״ûםדûס\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiogram\dispatcher\middlewares\user_context.py", line 49, in __call__
-    return await handler(event, data)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\״ûםדûס\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiogram\fsm\middleware.py", line 42, in __call__
-    return await handler(event, data)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\״ûםדûס\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
-    return await wrapped_inner(event, kwargs)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\״ûםדûס\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
-    return await wrapped()
-           ^^^^^^^^^^^^^^^
-  File "C:\Users\״ûםדûס\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 276, in _listen_update
-    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\״ûםדûס\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiogram\dispatcher\router.py", line 142, in propagate_event
-    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\״ûםדûס\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiogram\dispatcher\router.py", line 137, in _wrapped
-    return await self._propagate_event(
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\״ûםדûס\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiogram\dispatcher\router.py", line 170, in _propagate_event
-    response = await router.propagate_event(update_type=update_type, event=event, **kwargs)
-               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\״ûםדûס\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiogram\dispatcher\router.py", line 142, in propagate_event
-    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\״ûםדûס\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiogram\dispatcher\router.py", line 137, in _wrapped
-    return await self._propagate_event(
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\״ûםדûס\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiogram\dispatcher\router.py", line 162, in _propagate_event
-    response = await observer.trigger(event, **kwargs)
-               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\״ûםדûס\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
-    return await wrapped_inner(event, kwargs)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\״ûםדûס\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
-    return await wrapped()
-           ^^^^^^^^^^^^^^^
-  File "C:\Users\״ûםדûס\character_bot\handlers\main_menu.py", line 63, in process_menu_battle
+  File "/opt/render/project/src/handlers/main_menu.py", line 63, in process_menu_battle
     await start_combat(callback.message, state, character, enemy_id)
-  File "C:\Users\״ûםדûס\character_bot\handlers\combat.py", line 83, in start_combat
-    await message.answer(
-  File "C:\Users\״ûםדûס\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiogram\methods\base.py", line 84, in emit
-    return await bot(self)
-           ^^^^^^^^^^^^^^^
-  File "C:\Users\״ûםדûס\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiogram\client\bot.py", line 485, in __call__
-    return await self.session(self, method, timeout=request_timeout)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\״ûםדûס\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiogram\client\session\base.py", line 254, in __call__
-    return cast(TelegramType, await middleware(bot, method))
-                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\״ûםדûס\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiogram\client\session\aiohttp.py", line 189, in make_request
-    response = self.check_response(
-               ^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\״ûםדûס\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiogram\client\session\base.py", line 110, in check_response
-    raise TelegramRetryAfter(
-aiogram.exceptions.TelegramRetryAfter: Telegram server says - Flood control exceeded on method 'SendMessage' in chat -1002549350814. Retry in 15 seconds.
-Original description: Too Many Requests: retry after 15
-(background on this error at: https://core.telegram.org/bots/faq#my-bot-is-hitting-limits-how-do-i-avoid-this)
-2025-07-06 20:57:58,092 - aiogram.event - INFO - Update id=359547250 is handled. Duration 359 ms by bot id=7940686992
-2025-07-06 20:58:00,473 - aiogram.event - INFO - Update id=359547251 is handled. Duration 500 ms by bot id=7940686992
-2025-07-06 20:58:04,056 - aiogram.event - INFO - Update id=359547252 is handled. Duration 594 ms by bot id=7940686992
-2025-07-06 20:58:04,636 - aiogram.event - INFO - Update id=359547253 is not handled. Duration 0 ms by bot id=7940686992
-2025-07-06 20:58:09,466 - aiogram.event - INFO - Update id=359547254 is handled. Duration 500 ms by bot id=7940686992
-2025-07-06 20:58:10,551 - root - INFO - Combat: Attack button pressed by user 2139448887
-2025-07-06 20:58:10,821 - aiogram.event - INFO - Update id=359547255 is handled. Duration 280 ms by bot id=7940686992
-2025-07-06 20:58:11,470 - root - INFO - Combat: Attack button pressed by user 2139448887
-2025-07-06 20:58:11,784 - aiogram.event - INFO - Update id=359547256 is handled. Duration 329 ms by bot id=7940686992
-2025-07-06 20:58:14,367 - aiogram.event - INFO - Update id=359547257 is handled. Duration 485 ms by bot id=7940686992
-2025-07-06 20:58:18,950 - aiogram.event - INFO - Update id=359547258 is handled. Duration 545 ms by bot id=7940686992
-2025-07-06 20:58:22,443 - aiogram.event - INFO - Update id=359547259 is handled. Duration 452 ms by bot id=7940686992
-2025-07-06 20:58:23,701 - root - INFO - Combat: Attack button pressed by user 2139448887
-2025-07-06 20:58:24,092 - aiogram.event - INFO - Update id=359547260 is handled. Duration 406 ms by bot id=7940686992
-2025-07-06 20:58:25,092 - aiogram.event - INFO - Update id=359547261 is handled. Duration 484 ms by bot id=7940686992
-2025-07-06 20:58:29,555 - aiogram.event - INFO - Update id=359547262 is handled. Duration 625 ms by bot id=7940686992
-2025-07-06 20:58:42,174 - aiogram.event - INFO - Update id=359547263 is handled. Duration 546 ms by bot id=7940686992
-2025-07-06 20:58:45,946 - aiogram.event - INFO - Update id=359547264 is handled. Duration 452 ms by bot id=7940686992
-2025-07-06 20:58:48,264 - aiogram.event - INFO - Update id=359547265 is handled. Duration 155 ms by bot id=7940686992
-2025-07-06 20:58:49,766 - aiogram.event - INFO - Update id=359547266 is handled. Duration 469 ms by bot id=7940686992
-2025-07-06 20:58:50,031 - aiogram.event - INFO - Update id=359547267 is handled. Duration 610 ms by bot id=7940686992
-2025-07-06 20:58:50,848 - root - INFO - Combat: Attack button pressed by user 2139448887
-2025-07-06 20:58:51,327 - aiogram.event - INFO - Update id=359547268 is handled. Duration 500 ms by bot id=7940686992
-2025-07-06 20:58:51,920 - root - INFO - Combat: Attack button pressed by user 2139448887
-2025-07-06 20:58:52,208 - aiogram.event - INFO - Update id=359547269 is handled. Duration 295 ms by bot id=7940686992
-2025-07-06 20:58:53,215 - root - INFO - Combat: Attack button pressed by user 2139448887
-2025-07-06 20:58:53,491 - aiogram.event - INFO - Update id=359547270 is handled. Duration 282 ms by bot id=7940686992
-2025-07-06 20:58:55,705 - root - INFO - Entering show_equipment. Current state: None
-2025-07-06 20:58:55,706 - root - INFO - State set to ProfileState.viewing_equipment
-2025-07-06 20:58:56,031 - aiogram.event - INFO - Update id=359547271 is handled. Duration 329 ms by bot id=7940686992
-2025-07-06 20:58:59,032 - aiogram.event - INFO - Update id=359547272 is not handled. Duration 0 ms by bot id=7940686992
-2025-07-06 20:59:00,368 - aiogram.event - INFO - Update id=359547273 is handled. Duration 703 ms by bot id=7940686992
-2025-07-06 20:59:04,906 - aiogram.event - INFO - Update id=359547274 is handled. Duration 312 ms by bot id=7940686992
-2025-07-06 20:59:12,493 - aiogram.event - INFO - Update id=359547275 is not handled. Duration 0 ms by bot id=7940686992
-2025-07-06 20:59:14,681 - aiogram.event - INFO - Update id=359547276 is handled. Duration 327 ms by bot id=7940686992
-2025-07-06 20:59:16,341 - aiogram.event - INFO - Update id=359547277 is handled. Duration 312 ms by bot id=7940686992
-2025-07-06 20:59:19,297 - aiogram.event - INFO - Update id=359547278 is not handled. Duration 0 ms by bot id=7940686992
-2025-07-06 20:59:21,592 - aiogram.event - INFO - Update id=359547279 is handled. Duration 484 ms by bot id=7940686992
-2025-07-06 20:59:23,107 - aiogram.event - INFO - Update id=359547280 is handled. Duration 282 ms by bot id=7940686992
-2025-07-06 20:59:24,694 - aiogram.event - INFO - Update id=359547281 is handled. Duration 468 ms by bot id=7940686992
-2025-07-06 20:59:25,804 - root - INFO - Combat: Attack button pressed by user 2139448887
-2025-07-06 20:59:26,133 - aiogram.event - INFO - Update id=359547282 is handled. Duration 328 ms by bot id=7940686992
-2025-07-06 20:59:27,494 - aiogram.event - INFO - Update id=359547283 is handled. Duration 703 ms by bot id=7940686992
-2025-07-06 20:59:31,437 - aiogram.event - INFO - Update id=359547284 is handled. Duration 485 ms by bot id=7940686992
-2025-07-06 20:59:32,654 - aiogram.event - INFO - Update id=359547285 is not handled. Duration 15 ms by bot id=7940686992
-2025-07-06 20:59:35,355 - aiogram.event - INFO - Update id=359547286 is handled. Duration 469 ms by bot id=7940686992
-2025-07-06 20:59:37,122 - aiogram.event - INFO - Update id=359547287 is handled. Duration 468 ms by bot id=7940686992
-2025-07-06 20:59:39,177 - aiogram.event - INFO - Update id=359547288 is handled. Duration 469 ms by bot id=7940686992
-2025-07-06 20:59:40,508 - aiogram.event - INFO - Update id=359547289 is handled. Duration 453 ms by bot id=7940686992
-2025-07-06 20:59:44,771 - aiogram.event - INFO - Update id=359547290 is handled. Duration 155 ms by bot id=7940686992
-2025-07-06 20:59:46,374 - aiogram.event - INFO - Update id=359547291 is handled. Duration 484 ms by bot id=7940686992
-2025-07-06 20:59:47,322 - root - INFO - Combat: Attack button pressed by user 2139448887
-2025-07-06 20:59:47,624 - aiogram.event - INFO - Update id=359547292 is handled. Duration 312 ms by bot id=7940686992
-2025-07-06 20:59:50,192 - aiogram.event - INFO - Update id=359547293 is handled. Duration 452 ms by bot id=7940686992
-2025-07-06 20:59:51,180 - root - INFO - Combat: Attack button pressed by user 2139448887
-2025-07-06 20:59:51,475 - aiogram.event - INFO - Update id=359547294 is handled. Duration 297 ms by bot id=7940686992
-2025-07-06 20:59:52,963 - aiogram.event - INFO - Update id=359547295 is not handled. Duration 0 ms by bot id=7940686992
-2025-07-06 20:59:53,878 - aiogram.event - INFO - Update id=359547296 is handled. Duration 468 ms by bot id=7940686992
-2025-07-06 20:59:57,170 - aiogram.event - INFO - Update id=359547297 is not handled. Duration 14 ms by bot id=7940686992
-2025-07-06 20:59:57,721 - aiogram.event - INFO - Update id=359547298 is not handled. Duration 16 ms by bot id=7940686992
-2025-07-06 20:59:58,760 - aiogram.event - INFO - Update id=359547299 is not handled. Duration 0 ms by bot id=7940686992
-2025-07-06 20:59:58,955 - aiogram.event - INFO - Update id=359547300 is not handled. Duration 30 ms by bot id=7940686992
-2025-07-06 21:00:04,547 - aiogram.event - INFO - Update id=359547301 is not handled. Duration 14 ms by bot id=7940686992
-2025-07-06 21:00:07,631 - aiogram.event - INFO - Update id=359547302 is handled. Duration 389 ms by bot id=7940686992
-2025-07-06 21:00:09,495 - aiogram.event - INFO - Update id=359547303 is handled. Duration 782 ms by bot id=7940686992
-2025-07-06 21:00:10,276 - root - INFO - Combat: Attack button pressed by user 2139448887
-2025-07-06 21:00:10,613 - aiogram.event - INFO - Update id=359547304 is handled. Duration 344 ms by bot id=7940686992
-2025-07-06 21:00:13,041 - aiogram.event - INFO - Update id=359547305 is handled. Duration 796 ms by bot id=7940686992
-2025-07-06 21:00:13,679 - root - INFO - Combat: Attack button pressed by user 2139448887
-2025-07-06 21:00:14,024 - aiogram.event - INFO - Update id=359547306 is handled. Duration 359 ms by bot id=7940686992
-2025-07-06 21:00:15,290 - aiogram.event - INFO - Update id=359547307 is handled. Duration 500 ms by bot id=7940686992
-2025-07-06 21:00:16,081 - root - INFO - Combat: Attack button pressed by user 2139448887
-2025-07-06 21:00:16,382 - aiogram.event - INFO - Update id=359547308 is handled. Duration 312 ms by bot id=7940686992
-2025-07-06 21:00:17,818 - aiogram.event - INFO - Update id=359547309 is handled. Duration 468 ms by bot id=7940686992
-2025-07-06 21:00:19,451 - root - INFO - Combat: Attack button pressed by user 2139448887
-2025-07-06 21:00:19,933 - aiogram.event - INFO - Update id=359547310 is handled. Duration 484 ms by bot id=7940686992
-2025-07-06 21:00:21,747 - aiogram.event - INFO - Update id=359547311 is handled. Duration 468 ms by bot id=7940686992
-2025-07-06 21:00:23,115 - root - INFO - Combat: Attack button pressed by user 2139448887
-2025-07-06 21:00:23,425 - aiogram.event - INFO - Update id=359547312 is handled. Duration 327 ms by bot id=7940686992
-2025-07-06 21:00:23,834 - aiogram.event - INFO - Update id=359547313 is not handled. Duration 0 ms by bot id=7940686992
-2025-07-06 21:00:27,055 - aiogram.event - INFO - Update id=359547314 is not handled. Duration 0 ms by bot id=7940686992
-2025-07-06 21:00:39,170 - aiogram.event - INFO - Update id=359547315 is not handled. Duration 14 ms by bot id=7940686992
-2025-07-06 21:00:39,598 - aiogram.event - INFO - Update id=359547316 is not handled. Duration 0 ms by bot id=7940686992
-2025-07-06 21:00:44,886 - aiogram.event - INFO - Update id=359547317 is not handled. Duration 0 ms by bot id=7940686992
-2025-07-06 21:01:02,229 - aiogram.event - INFO - Update id=359547318 is not handled. Duration 0 ms by bot id=7940686992
-2025-07-06 21:01:08,956 - aiogram.event - INFO - Update id=359547319 is not handled. Duration 0 ms by bot id=7940686992
-2025-07-06 21:01:12,547 - aiogram.event - INFO - Update id=359547320 is handled. Duration 686 ms by bot id=7940686992
-2025-07-06 21:01:15,849 - aiogram.event - INFO - Update id=359547321 is handled. Duration 578 ms by bot id=7940686992
-2025-07-06 21:02:08,408 - aiogram.event - INFO - Update id=359547322 is not handled. Duration 0 ms by bot id=7940686992
-2025-07-06 21:02:10,170 - aiogram.event - INFO - Update id=359547323 is not handled. Duration 14 ms by bot id=7940686992
-2025-07-06 21:02:17,714 - aiogram.event - INFO - Update id=359547324 is not handled. Duration 0 ms by bot id=7940686992
-2025-07-06 21:02:27,385 - aiogram.event - INFO - Update id=359547325 is not handled. Duration 0 ms by bot id=7940686992
-2025-07-06 21:02:42,367 - aiogram.event - INFO - Update id=359547326 is not handled. Duration 15 ms by bot id=7940686992
-2025-07-06 21:02:53,499 - aiogram.event - INFO - Update id=359547327 is not handled. Duration 14 ms by bot id=7940686992
-2025-07-06 21:08:45,145 - aiogram.event - INFO - Update id=359547328 is handled. Duration 984 ms by bot id=7940686992
-2025-07-06 21:08:49,432 - aiogram.event - INFO - Update id=359547329 is handled. Duration 452 ms by bot id=7940686992
-2025-07-06 21:08:59,735 - aiogram.event - INFO - Update id=359547330 is handled. Duration 438 ms by bot id=7940686992
-2025-07-06 21:09:01,003 - root - INFO - User 8092842581 entered leveling menu.
-2025-07-06 21:09:01,004 - root - INFO - User 8092842581 entered choosing_stat state with 5 stat points.
-2025-07-06 21:09:01,452 - aiogram.event - INFO - Update id=359547331 is handled. Duration 467 ms by bot id=7940686992
-2025-07-06 21:09:03,129 - root - INFO - User 8092842581 chose action: luck in leveling menu.
-2025-07-06 21:09:03,130 - aiogram.event - INFO - Update id=359547332 is not handled. Duration 14 ms by bot id=7940686992
-2025-07-06 21:09:03,131 - aiogram.event - ERROR - Cause exception while process update id=359547332 by bot id=7940686992
-KeyError: 'luck'
+  File "/opt/render/project/src/handlers/combat.py", line 59, in start_combat
+    "player_mana": character_data['current_mana'], # Added player_mana
+                   ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^
+KeyError: 'current_mana'
+ERROR:aiohttp.server:Error handling request
 Traceback (most recent call last):
-  File "C:\Users\״ûםדûס\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 309, in _process_update
-    response = await self.feed_update(bot, update, **kwargs)
-               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\״ûםדûס\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 158, in feed_update
+  File "/opt/render/project/src/.venv/lib/python3.13/site-packages/aiohttp/web_protocol.py", line 452, in _handle_request
+    resp = await request_handler(request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/render/project/src/.venv/lib/python3.13/site-packages/aiohttp/web_app.py", line 543, in _handle
+    resp = await handler(request)
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/render/project/src/bot.py", line 32, in webhook_handler
+    await dp.feed_update(bot, update)
+  File "/opt/render/project/src/.venv/lib/python3.13/site-packages/aiogram/dispatcher/dispatcher.py", line 158, in feed_update
     response = await self.update.wrap_outer_middleware(
                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\״ûםדûס\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiogram\dispatcher\middlewares\error.py", line 25, in __call__
+    ...<7 lines>...
+    )
+    ^
+  File "/opt/render/project/src/.venv/lib/python3.13/site-packages/aiogram/dispatcher/middlewares/error.py", line 25, in __call__
     return await handler(event, data)
            ^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\״ûםדûס\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiogram\dispatcher\middlewares\user_context.py", line 49, in __call__
+  File "/opt/render/project/src/.venv/lib/python3.13/site-packages/aiogram/dispatcher/middlewares/user_context.py", line 49, in __call__
     return await handler(event, data)
            ^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\״ûםדûס\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiogram\fsm\middleware.py", line 42, in __call__
+  File "/opt/render/project/src/.venv/lib/python3.13/site-packages/aiogram/fsm/middleware.py", line 42, in __call__
     return await handler(event, data)
            ^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\״ûםדûס\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+  File "/opt/render/project/src/.venv/lib/python3.13/site-packages/aiogram/dispatcher/event/telegram.py", line 121, in trigger
     return await wrapped_inner(event, kwargs)
            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\״ûםדûס\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+  File "/opt/render/project/src/.venv/lib/python3.13/site-packages/aiogram/dispatcher/event/handler.py", line 43, in call
     return await wrapped()
            ^^^^^^^^^^^^^^^
-  File "C:\Users\״ûםדûס\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 276, in _listen_update
+  File "/opt/render/project/src/.venv/lib/python3.13/site-packages/aiogram/dispatcher/dispatcher.py", line 276, in _listen_update
     return await self.propagate_event(update_type=update_type, event=event, **kwargs)
            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\״ûםדûס\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiogram\dispatcher\router.py", line 142, in propagate_event
+  File "/opt/render/project/src/.venv/lib/python3.13/site-packages/aiogram/dispatcher/router.py", line 142, in propagate_event
     return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\״ûםדûס\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiogram\dispatcher\router.py", line 137, in _wrapped
+  File "/opt/render/project/src/.venv/lib/python3.13/site-packages/aiogram/dispatcher/router.py", line 137, in _wrapped
     return await self._propagate_event(
            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\״ûםדûס\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiogram\dispatcher\router.py", line 170, in _propagate_event
+        observer=observer, update_type=update_type, event=telegram_event, **data
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/opt/render/project/src/.venv/lib/python3.13/site-packages/aiogram/dispatcher/router.py", line 170, in _propagate_event
     response = await router.propagate_event(update_type=update_type, event=event, **kwargs)
                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\״ûםדûס\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiogram\dispatcher\router.py", line 142, in propagate_event
+  File "/opt/render/project/src/.venv/lib/python3.13/site-packages/aiogram/dispatcher/router.py", line 142, in propagate_event
     return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\״ûםדûס\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiogram\dispatcher\router.py", line 137, in _wrapped
+  File "/opt/render/project/src/.venv/lib/python3.13/site-packages/aiogram/dispatcher/router.py", line 137, in _wrapped
     return await self._propagate_event(
            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\״ûםדûס\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiogram\dispatcher\router.py", line 162, in _propagate_event
+        observer=observer, update_type=update_type, event=telegram_event, **data
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/opt/render/project/src/.venv/lib/python3.13/site-packages/aiogram/dispatcher/router.py", line 162, in _propagate_event
     response = await observer.trigger(event, **kwargs)
                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\״ûםדûס\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+  File "/opt/render/project/src/.venv/lib/python3.13/site-packages/aiogram/dispatcher/event/telegram.py", line 121, in trigger
     return await wrapped_inner(event, kwargs)
            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\״ûםדûס\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+  File "/opt/render/project/src/.venv/lib/python3.13/site-packages/aiogram/dispatcher/event/handler.py", line 43, in call
     return await wrapped()
            ^^^^^^^^^^^^^^^
-  File "C:\Users\״ûםדûס\character_bot\handlers\leveling.py", line 93, in process_stat_choice
-    character['stats'][stat_to_increase] += 1 # Assuming 1 point per stat increase
-    ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
-KeyError: 'luck'
-2025-07-06 21:11:09,399 - aiogram.dispatcher - INFO - Start polling
-2025-07-06 21:11:09,543 - aiogram.dispatcher - INFO - Run polling for bot @GambleUrFamily_Bot id=7940686992 - 'Êעמ?'
-2025-07-06 21:11:09,675 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
-2025-07-06 21:11:09,676 - aiogram.dispatcher - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 7940686992)
-2025-07-06 21:11:13,946 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
-2025-07-06 21:11:13,946 - aiogram.dispatcher - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 7940686992)
-2025-07-06 21:11:15,077 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
-2025-07-06 21:11:15,078 - aiogram.dispatcher - WARNING - Sleep for 1.350955 seconds and try again... (tryings = 1, bot id = 7940686992)
-2025-07-06 21:11:19,556 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
-2025-07-06 21:11:19,557 - aiogram.dispatcher - WARNING - Sleep for 1.340127 seconds and try again... (tryings = 1, bot id = 7940686992)
-2025-07-06 21:11:21,038 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
-2025-07-06 21:11:21,039 - aiogram.dispatcher - WARNING - Sleep for 1.735894 seconds and try again... (tryings = 2, bot id = 7940686992)
-2025-07-06 21:11:22,653 - aiogram.dispatcher - INFO - Polling stopped
-2025-07-06 21:11:22,917 - aiogram.dispatcher - INFO - Polling stopped for bot @GambleUrFamily_Bot id=7940686992 - 'Êעמ?'
-2025-07-06 21:11:31,034 - aiogram.dispatcher - INFO - Connection established (tryings = 2, bot id = 7940686992)
-2025-07-06 21:11:42,072 - aiogram.event - INFO - Update id=359547333 is not handled. Duration 15 ms by bot id=7940686992
-2025-07-06 21:11:46,455 - aiogram.event - INFO - Update id=359547334 is not handled. Duration 14 ms by bot id=7940686992
-2025-07-06 21:12:00,752 - aiogram.event - INFO - Update id=359547335 is not handled. Duration 0 ms by bot id=7940686992
-2025-07-06 21:12:03,501 - aiogram.event - INFO - Update id=359547336 is handled. Duration 547 ms by bot id=7940686992
-2025-07-06 21:12:07,353 - aiogram.event - INFO - Update id=359547337 is handled. Duration 406 ms by bot id=7940686992
-2025-07-06 21:12:12,799 - aiogram.event - INFO - Update id=359547338 is handled. Duration 421 ms by bot id=7940686992
-2025-07-06 21:12:17,358 - aiogram.event - INFO - Update id=359547339 is handled. Duration 547 ms by bot id=7940686992
-2025-07-06 21:12:20,297 - root - INFO - User 8092842581 entered leveling menu.
-2025-07-06 21:12:20,299 - root - INFO - User 8092842581 entered choosing_stat state with 5 stat points.
-2025-07-06 21:12:20,771 - aiogram.event - INFO - Update id=359547340 is handled. Duration 484 ms by bot id=7940686992
-2025-07-06 21:12:24,650 - root - INFO - User 8092842581 chose action: luck in leveling menu.
-2025-07-06 21:12:24,651 - root - INFO - User 8092842581 increased luck. Remaining stat points: 4
-2025-07-06 21:12:25,155 - aiogram.event - INFO - Update id=359547341 is handled. Duration 515 ms by bot id=7940686992
-2025-07-06 21:12:29,176 - root - INFO - User 8092842581 chose action: complete in leveling menu.
-2025-07-06 21:12:29,178 - root - INFO - User 8092842581 completed leveling. Character saved.
-2025-07-06 21:12:29,586 - aiogram.event - INFO - Update id=359547342 is handled. Duration 420 ms by bot id=7940686992
-2025-07-06 21:12:38,726 - aiogram.event - INFO - Update id=359547343 is handled. Duration 2969 ms by bot id=7940686992
-2025-07-06 21:12:53,471 - aiogram.event - INFO - Update id=359547344 is not handled. Duration 62 ms by bot id=7940686992
-2025-07-06 21:12:57,601 - aiogram.event - INFO - Update id=359547345 is handled. Duration 1828 ms by bot id=7940686992
-2025-07-06 21:13:03,238 - aiogram.event - INFO - Update id=359547346 is handled. Duration 532 ms by bot id=7940686992
-2025-07-06 21:14:37,201 - aiogram.event - INFO - Update id=359547347 is handled. Duration 733 ms by bot id=7940686992
-2025-07-06 21:14:40,875 - aiogram.event - INFO - Update id=359547348 is handled. Duration 484 ms by bot id=7940686992
-2025-07-06 21:14:44,872 - aiogram.event - INFO - Update id=359547349 is handled. Duration 375 ms by bot id=7940686992
-2025-07-06 21:14:46,982 - aiogram.event - INFO - Update id=359547350 is handled. Duration 438 ms by bot id=7940686992
-2025-07-06 21:14:51,251 - aiogram.event - INFO - Update id=359547351 is not handled. Duration 0 ms by bot id=7940686992
-2025-07-06 21:14:55,326 - aiogram.event - INFO - Update id=359547352 is handled. Duration 436 ms by bot id=7940686992
-2025-07-06 21:15:04,712 - aiogram.event - INFO - Update id=359547353 is not handled. Duration 0 ms by bot id=7940686992
-2025-07-06 21:15:21,659 - aiogram.event - INFO - Update id=359547354 is not handled. Duration 0 ms by bot id=7940686992
-2025-07-06 21:15:41,254 - aiogram.event - INFO - Update id=359547355 is not handled. Duration 0 ms by bot id=7940686992
-2025-07-06 21:15:48,326 - aiogram.event - INFO - Update id=359547356 is not handled. Duration 0 ms by bot id=7940686992
-2025-07-06 21:16:18,392 - aiogram.event - INFO - Update id=359547357 is not handled. Duration 0 ms by bot id=7940686992
-2025-07-06 21:16:26,106 - aiogram.event - INFO - Update id=359547358 is not handled. Duration 15 ms by bot id=7940686992
-2025-07-06 21:17:56,013 - aiogram.event - INFO - Update id=359547359 is not handled. Duration 15 ms by bot id=7940686992
-2025-07-06 21:18:05,005 - aiogram.event - INFO - Update id=359547360 is not handled. Duration 0 ms by bot id=7940686992
-2025-07-06 21:18:11,700 - aiogram.event - INFO - Update id=359547361 is not handled. Duration 14 ms by bot id=7940686992
-2025-07-06 21:59:03,745 - aiogram.event - INFO - Update id=359547362 is not handled. Duration 920 ms by bot id=7940686992
-2025-07-06 21:59:12,027 - aiogram.event - INFO - Update id=359547363 is not handled. Duration 15 ms by bot id=7940686992
-2025-07-06 22:01:02,823 - aiogram.event - INFO - Update id=359547364 is not handled. Duration 296 ms by bot id=7940686992
-2025-07-06 22:01:12,391 - aiogram.event - INFO - Update id=359547365 is not handled. Duration 0 ms by bot id=7940686992
-2025-07-06 22:01:21,802 - aiogram.event - INFO - Update id=359547366 is not handled. Duration 0 ms by bot id=7940686992
-2025-07-06 22:02:05,904 - aiogram.event - INFO - Update id=359547367 is not handled. Duration 15 ms by bot id=7940686992
-2025-07-06 22:02:14,994 - aiogram.event - INFO - Update id=359547368 is not handled. Duration 0 ms by bot id=7940686992
-2025-07-07 00:25:47,746 - aiogram.dispatcher - INFO - Start polling
-2025-07-07 00:25:47,997 - aiogram.dispatcher - INFO - Run polling for bot @GambleUrFamily_Bot id=7940686992 - 'Êעמ?'
-2025-07-07 00:27:13,401 - aiogram.event - INFO - Update id=359547431 is handled. Duration 1296 ms by bot id=7940686992
-2025-07-07 00:27:17,113 - aiogram.event - INFO - Update id=359547432 is handled. Duration 438 ms by bot id=7940686992
-2025-07-07 00:27:22,299 - aiogram.event - INFO - Update id=359547433 is handled. Duration 483 ms by bot id=7940686992
-2025-07-07 00:27:27,880 - root - INFO - Combat: Attack button pressed by user 8092842581
-2025-07-07 00:27:28,155 - aiogram.event - INFO - Update id=359547434 is handled. Duration 296 ms by bot id=7940686992
-2025-07-07 00:27:34,220 - root - INFO - Combat: Attack button pressed by user 8092842581
-2025-07-07 00:27:34,520 - aiogram.event - INFO - Update id=359547435 is handled. Duration 312 ms by bot id=7940686992
-2025-07-07 00:27:36,288 - root - INFO - Combat: Defend button pressed by user 8092842581
-2025-07-07 00:27:36,572 - aiogram.event - INFO - Update id=359547436 is handled. Duration 281 ms by bot id=7940686992
-2025-07-07 00:27:39,810 - root - INFO - Combat: Defend button pressed by user 8092842581
-2025-07-07 00:27:40,086 - aiogram.event - INFO - Update id=359547437 is handled. Duration 281 ms by bot id=7940686992
-2025-07-07 00:27:41,503 - root - INFO - Combat: Attack button pressed by user 8092842581
-2025-07-07 00:27:42,192 - aiogram.event - INFO - Update id=359547438 is handled. Duration 703 ms by bot id=7940686992
-2025-07-07 00:27:45,262 - root - INFO - Combat: Attack button pressed by user 8092842581
-2025-07-07 00:27:45,536 - aiogram.event - INFO - Update id=359547439 is handled. Duration 281 ms by bot id=7940686992
-2025-07-07 00:27:47,394 - root - INFO - Combat: Inventory button pressed by user 8092842581
-2025-07-07 00:27:47,669 - aiogram.event - INFO - Update id=359547440 is handled. Duration 296 ms by bot id=7940686992
-2025-07-07 00:27:50,311 - root - INFO - Combat: Back to main (from inventory) button pressed by user 8092842581
-2025-07-07 00:27:50,594 - aiogram.event - INFO - Update id=359547441 is handled. Duration 296 ms by bot id=7940686992
-2025-07-07 00:27:52,649 - root - INFO - Combat: Ability button pressed by user 8092842581
-2025-07-07 00:27:52,916 - aiogram.event - INFO - Update id=359547442 is handled. Duration 266 ms by bot id=7940686992
-2025-07-07 00:27:55,219 - root - INFO - Combat: Use ability button pressed by user 8092842581
-2025-07-07 00:27:55,499 - aiogram.event - INFO - Update id=359547443 is handled. Duration 296 ms by bot id=7940686992
-2025-07-07 00:27:57,909 - root - INFO - Combat: Ability button pressed by user 8092842581
-2025-07-07 00:27:58,173 - aiogram.event - INFO - Update id=359547444 is handled. Duration 281 ms by bot id=7940686992
-2025-07-07 00:27:59,162 - root - INFO - Combat: Use ability button pressed by user 8092842581
-2025-07-07 00:27:59,468 - aiogram.event - INFO - Update id=359547445 is handled. Duration 311 ms by bot id=7940686992
-2025-07-07 00:28:01,397 - root - INFO - Combat: Ability button pressed by user 8092842581
-2025-07-07 00:28:01,681 - aiogram.event - INFO - Update id=359547446 is handled. Duration 281 ms by bot id=7940686992
-2025-07-07 00:28:02,585 - root - INFO - Combat: Use ability button pressed by user 8092842581
-2025-07-07 00:28:03,637 - aiogram.event - INFO - Update id=359547447 is handled. Duration 1062 ms by bot id=7940686992
-2025-07-07 00:28:06,934 - root - INFO - Combat: Attack button pressed by user 8092842581
-2025-07-07 00:28:07,204 - aiogram.event - INFO - Update id=359547448 is handled. Duration 281 ms by bot id=7940686992
-2025-07-07 00:28:09,727 - root - INFO - Combat: Ability button pressed by user 8092842581
-2025-07-07 00:28:09,998 - aiogram.event - INFO - Update id=359547449 is handled. Duration 281 ms by bot id=7940686992
-2025-07-07 00:28:11,054 - root - INFO - Combat: Use ability button pressed by user 8092842581
-2025-07-07 00:28:11,329 - aiogram.event - INFO - Update id=359547450 is handled. Duration 281 ms by bot id=7940686992
-2025-07-07 00:28:14,673 - root - INFO - Combat: Run button pressed by user 8092842581
-2025-07-07 00:28:14,944 - aiogram.event - INFO - Update id=359547451 is handled. Duration 281 ms by bot id=7940686992
-2025-07-07 00:28:18,409 - root - INFO - Combat: Run button pressed by user 8092842581
-2025-07-07 00:28:18,691 - aiogram.event - INFO - Update id=359547452 is handled. Duration 297 ms by bot id=7940686992
-2025-07-07 00:28:21,901 - root - INFO - Combat: Ability button pressed by user 8092842581
-2025-07-07 00:28:22,225 - aiogram.event - INFO - Update id=359547453 is handled. Duration 328 ms by bot id=7940686992
-2025-07-07 00:28:23,146 - root - INFO - Combat: Use ability button pressed by user 8092842581
-2025-07-07 00:28:23,786 - aiogram.event - INFO - Update id=359547454 is handled. Duration 656 ms by bot id=7940686992
-2025-07-07 00:28:44,862 - aiogram.event - INFO - Update id=359547455 is handled. Duration 813 ms by bot id=7940686992
-2025-07-07 00:28:48,611 - aiogram.event - INFO - Update id=359547456 is handled. Duration 438 ms by bot id=7940686992
-2025-07-07 00:29:46,681 - aiogram.event - INFO - Update id=359547457 is handled. Duration 921 ms by bot id=7940686992
-2025-07-07 00:29:48,732 - aiogram.event - INFO - Update id=359547458 is handled. Duration 703 ms by bot id=7940686992
-2025-07-07 00:29:52,920 - aiogram.event - INFO - Update id=359547459 is handled. Duration 406 ms by bot id=7940686992
-2025-07-07 00:30:03,682 - root - INFO - Combat: Attack button pressed by user 8092842581
-2025-07-07 00:30:03,949 - aiogram.event - INFO - Update id=359547460 is handled. Duration 266 ms by bot id=7940686992
-2025-07-07 00:30:06,377 - root - INFO - Combat: Ability button pressed by user 8092842581
-2025-07-07 00:30:07,032 - aiogram.event - INFO - Update id=359547461 is handled. Duration 671 ms by bot id=7940686992
-2025-07-07 00:30:07,734 - root - INFO - Combat: Use ability button pressed by user 8092842581
-2025-07-07 00:30:08,004 - aiogram.event - INFO - Update id=359547462 is handled. Duration 281 ms by bot id=7940686992
-2025-07-07 00:30:09,263 - root - INFO - Combat: Ability button pressed by user 8092842581
-2025-07-07 00:30:09,525 - aiogram.event - INFO - Update id=359547463 is handled. Duration 265 ms by bot id=7940686992
-2025-07-07 00:30:10,389 - root - INFO - Combat: Use ability button pressed by user 8092842581
-2025-07-07 00:30:10,648 - aiogram.event - INFO - Update id=359547464 is handled. Duration 265 ms by bot id=7940686992
-2025-07-07 00:30:13,331 - root - INFO - Combat: Inventory button pressed by user 8092842581
-2025-07-07 00:30:13,594 - aiogram.event - INFO - Update id=359547465 is handled. Duration 280 ms by bot id=7940686992
-2025-07-07 00:30:16,079 - root - INFO - Combat: Use item button pressed by user 8092842581
-2025-07-07 00:30:16,346 - aiogram.event - INFO - Update id=359547466 is handled. Duration 280 ms by bot id=7940686992
-2025-07-07 00:30:18,565 - root - INFO - Combat: Attack button pressed by user 8092842581
-2025-07-07 00:30:18,855 - aiogram.event - INFO - Update id=359547467 is handled. Duration 296 ms by bot id=7940686992
-2025-07-07 00:30:20,535 - root - INFO - Combat: Attack button pressed by user 8092842581
-2025-07-07 00:30:20,795 - aiogram.event - INFO - Update id=359547468 is handled. Duration 281 ms by bot id=7940686992
-2025-07-07 00:30:28,283 - aiogram.event - INFO - Update id=359547469 is handled. Duration 360 ms by bot id=7940686992
-2025-07-07 00:30:32,389 - aiogram.event - INFO - Update id=359547470 is handled. Duration 358 ms by bot id=7940686992
-2025-07-07 00:30:33,914 - aiogram.event - INFO - Update id=359547471 is handled. Duration 485 ms by bot id=7940686992
-2025-07-07 00:30:36,061 - aiogram.event - INFO - Update id=359547472 is handled. Duration 281 ms by bot id=7940686992
-2025-07-07 00:30:38,791 - aiogram.event - INFO - Update id=359547473 is handled. Duration 1610 ms by bot id=7940686992
-2025-07-07 00:30:40,755 - aiogram.event - INFO - Update id=359547474 is handled. Duration 514 ms by bot id=7940686992
-2025-07-07 00:30:48,720 - aiogram.dispatcher - INFO - Polling stopped
-2025-07-07 00:30:49,063 - aiogram.dispatcher - INFO - Polling stopped for bot @GambleUrFamily_Bot id=7940686992 - 'Êעמ?'
-2025-07-07 00:31:48,337 - aiogram.dispatcher - INFO - Start polling
-2025-07-07 00:31:48,459 - aiogram.dispatcher - INFO - Run polling for bot @GambleUrFamily_Bot id=7940686992 - 'Êעמ?'
-2025-07-07 00:34:06,415 - root - INFO - Entering show_equipment. Current state: None
-2025-07-07 00:34:06,415 - root - INFO - State set to ProfileState.viewing_equipment
-2025-07-07 00:34:07,119 - aiogram.event - INFO - Update id=359547475 is handled. Duration 703 ms by bot id=7940686992
-2025-07-07 00:34:12,456 - root - INFO - Entering view_equipped_item. Current state: ProfileState:viewing_equipment
-2025-07-07 00:34:12,457 - root - INFO - item_id: iron_sword
-2025-07-07 00:34:12,786 - aiogram.event - INFO - Update id=359547476 is handled. Duration 343 ms by bot id=7940686992
-2025-07-07 00:34:15,562 - root - INFO - Entering show_equipment. Current state: ProfileState:viewing_equipment_item
-2025-07-07 00:34:15,563 - root - INFO - State set to ProfileState.viewing_equipment
-2025-07-07 00:34:16,053 - aiogram.event - INFO - Update id=359547477 is handled. Duration 500 ms by bot id=7940686992
-2025-07-07 00:34:19,038 - aiogram.event - INFO - Update id=359547478 is handled. Duration 766 ms by bot id=7940686992
-2025-07-07 00:39:00,732 - aiogram.event - INFO - Update id=359547479 is not handled. Duration 31 ms by bot id=7940686992
-2025-07-07 00:39:09,530 - aiogram.event - INFO - Update id=359547480 is handled. Duration 516 ms by bot id=7940686992
-2025-07-07 00:39:13,436 - aiogram.event - INFO - Update id=359547481 is handled. Duration 500 ms by bot id=7940686992
-2025-07-07 00:39:23,192 - root - INFO - Combat: Attack button pressed by user 8092842581
-2025-07-07 00:39:23,733 - aiogram.event - INFO - Update id=359547482 is handled. Duration 563 ms by bot id=7940686992
-2025-07-07 00:39:27,119 - aiogram.event - INFO - Update id=359547483 is handled. Duration 203 ms by bot id=7940686992
-2025-07-07 00:39:28,718 - aiogram.event - INFO - Update id=359547484 is handled. Duration 436 ms by bot id=7940686992
-2025-07-07 00:39:33,460 - aiogram.event - INFO - Update id=359547486 is not handled. Duration 14 ms by bot id=7940686992
-2025-07-07 00:39:33,584 - aiogram.event - INFO - Update id=359547485 is handled. Duration 656 ms by bot id=7940686992
-2025-07-07 00:39:42,582 - aiogram.event - INFO - Update id=359547487 is handled. Duration 562 ms by bot id=7940686992
-2025-07-07 00:39:43,981 - root - INFO - Combat: Attack button pressed by user 2139448887
-2025-07-07 00:39:44,362 - aiogram.event - INFO - Update id=359547488 is handled. Duration 391 ms by bot id=7940686992
-2025-07-07 00:39:45,779 - aiogram.event - INFO - Update id=359547489 is handled. Duration 453 ms by bot id=7940686992
-2025-07-07 00:39:48,235 - aiogram.event - INFO - Update id=359547490 is not handled. Duration 16 ms by bot id=7940686992
-2025-07-07 00:39:53,599 - aiogram.event - INFO - Update id=359547491 is not handled. Duration 0 ms by bot id=7940686992
-2025-07-07 00:39:59,015 - root - INFO - Combat: Inventory button pressed by user 8092842581
-2025-07-07 00:39:59,167 - aiogram.event - INFO - Update id=359547492 is handled. Duration 156 ms by bot id=7940686992
-2025-07-07 00:40:01,851 - root - INFO - Combat: Ability button pressed by user 8092842581
-2025-07-07 00:40:02,141 - aiogram.event - INFO - Update id=359547493 is handled. Duration 296 ms by bot id=7940686992
-2025-07-07 00:40:03,281 - root - INFO - Combat: Use ability button pressed by user 8092842581
-2025-07-07 00:40:03,562 - aiogram.event - INFO - Update id=359547494 is handled. Duration 297 ms by bot id=7940686992
-2025-07-07 00:40:07,840 - aiogram.event - INFO - Update id=359547495 is handled. Duration 686 ms by bot id=7940686992
-2025-07-07 00:40:13,339 - aiogram.event - INFO - Update id=359547496 is handled. Duration 687 ms by bot id=7940686992
-2025-07-07 00:40:33,371 - aiogram.event - INFO - Update id=359547497 is not handled. Duration 14 ms by bot id=7940686992
-2025-07-07 00:40:50,712 - aiogram.dispatcher - INFO - Polling stopped
-2025-07-07 00:40:51,041 - aiogram.dispatcher - INFO - Polling stopped for bot @GambleUrFamily_Bot id=7940686992 - 'Êעמ?'
-2025-07-07 01:00:24,741 - aiogram.dispatcher - INFO - Start polling
-2025-07-07 01:00:25,037 - aiogram.dispatcher - INFO - Run polling for bot @GambleUrFamily_Bot id=7940686992 - 'Êעמ?'
-2025-07-07 01:04:29,117 - aiogram.event - INFO - Update id=359547525 is not handled. Duration 63 ms by bot id=7940686992
-2025-07-07 01:04:42,304 - aiogram.event - INFO - Update id=359547526 is not handled. Duration 0 ms by bot id=7940686992
-2025-07-07 01:06:08,099 - aiogram.event - INFO - Update id=359547527 is not handled. Duration 0 ms by bot id=7940686992
-2025-07-07 01:07:09,342 - aiogram.event - INFO - Update id=359547528 is handled. Duration 843 ms by bot id=7940686992
-2025-07-07 01:07:10,962 - aiogram.event - INFO - Update id=359547529 is handled. Duration 453 ms by bot id=7940686992
-2025-07-07 01:07:13,406 - aiogram.event - INFO - Update id=359547530 is handled. Duration 438 ms by bot id=7940686992
-2025-07-07 01:07:15,154 - aiogram.event - INFO - Update id=359547531 is handled. Duration 468 ms by bot id=7940686992
-2025-07-07 01:07:16,689 - aiogram.event - INFO - Update id=359547532 is not handled. Duration 203 ms by bot id=7940686992
-2025-07-07 01:07:16,693 - aiogram.event - ERROR - Cause exception while process update id=359547532 by bot id=7940686992
-KeyError: 'max_hp'
-Traceback (most recent call last):
-  File "C:\Users\״ûםדûס\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 309, in _process_update
-    response = await self.feed_update(bot, update, **kwargs)
-               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\״ûםדûס\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 158, in feed_update
-    response = await self.update.wrap_outer_middleware(
-               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\״ûםדûס\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiogram\dispatcher\middlewares\error.py", line 25, in __call__
-    return await handler(event, data)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\״ûםדûס\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiogram\dispatcher\middlewares\user_context.py", line 49, in __call__
-    return await handler(event, data)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\״ûםדûס\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiogram\fsm\middleware.py", line 42, in __call__
-    return await handler(event, data)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\״ûםדûס\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
-    return await wrapped_inner(event, kwargs)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\״ûםדûס\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
-    return await wrapped()
-           ^^^^^^^^^^^^^^^
-  File "C:\Users\״ûםדûס\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 276, in _listen_update
-    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\״ûםדûס\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiogram\dispatcher\router.py", line 142, in propagate_event
-    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\״ûםדûס\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiogram\dispatcher\router.py", line 137, in _wrapped
-    return await self._propagate_event(
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\״ûםדûס\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiogram\dispatcher\router.py", line 170, in _propagate_event
-    response = await router.propagate_event(update_type=update_type, event=event, **kwargs)
-               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\״ûםדûס\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiogram\dispatcher\router.py", line 142, in propagate_event
-    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\״ûםדûס\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiogram\dispatcher\router.py", line 137, in _wrapped
-    return await self._propagate_event(
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\״ûםדûס\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiogram\dispatcher\router.py", line 162, in _propagate_event
-    response = await observer.trigger(event, **kwargs)
-               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\״ûםדûס\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
-    return await wrapped_inner(event, kwargs)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\״ûםדûס\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
-    return await wrapped()
-           ^^^^^^^^^^^^^^^
-  File "C:\Users\״ûםדûס\character_bot\handlers\main_menu.py", line 63, in process_menu_battle
+  File "/opt/render/project/src/handlers/main_menu.py", line 63, in process_menu_battle
     await start_combat(callback.message, state, character, enemy_id)
-  File "C:\Users\״ûםדûס\character_bot\handlers\combat.py", line 55, in start_combat
-    "player_max_hp": character_data['stats']['max_hp'],
-                     ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^
-KeyError: 'max_hp'
-2025-07-07 01:07:38,551 - aiogram.dispatcher - INFO - Polling stopped
-2025-07-07 01:07:38,880 - aiogram.dispatcher - INFO - Polling stopped for bot @GambleUrFamily_Bot id=7940686992 - 'Êעמ?'
-2025-07-07 01:13:43,955 - aiogram.dispatcher - INFO - Start polling
-2025-07-07 01:13:44,828 - aiogram.dispatcher - INFO - Run polling for bot @GambleUrFamily_Bot id=7940686992 - 'Êעמ?'
-2025-07-07 02:03:07,859 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+  File "/opt/render/project/src/handlers/combat.py", line 59, in start_combat
+    "player_mana": character_data['current_mana'], # Added player_mana
+                   ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^
+KeyError: 'current_mana'
